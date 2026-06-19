@@ -10,7 +10,11 @@ const apiRoutes = require('./src/routes/api');
 const { attachAuthLocals } = require('./src/auth');
 
 const app = express();
-const port = Number(process.env.APP_PORT || 3000);
+const port = Number(process.env.PORT || process.env.APP_PORT || 3000);
+
+// Railway y otros hosting usan proxy HTTPS al frente.
+// Esto permite que Express reconozca la conexión segura y guarde bien la cookie de sesión.
+app.set('trust proxy', 1);
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
