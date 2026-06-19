@@ -19,6 +19,19 @@
   let activeFilter = 'TODOS';
   let toastTimer = null;
 
+  const params = new URLSearchParams(window.location.search);
+  const initialTipo = (params.get('tipo') || '').toUpperCase();
+  const initialSearch = params.get('q') || '';
+  if (search && initialSearch) search.value = initialSearch;
+  if (initialTipo && ['OFICINA', 'SUCURSAL', 'PANADERIA', 'VIGILANCIA'].includes(initialTipo)) {
+    activeFilter = initialTipo;
+    if (filterRow) {
+      filterRow.querySelectorAll('.filter-chip').forEach((chip) => {
+        chip.classList.toggle('active', chip.dataset.filter === initialTipo);
+      });
+    }
+  }
+
   function showToast(message) {
     if (!toast) return;
     toast.innerHTML = `<i class="fa-solid fa-check"></i> ${message}`;

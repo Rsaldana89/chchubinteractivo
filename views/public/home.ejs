@@ -1,0 +1,356 @@
+<%- include('../partials/head', { title }) %>
+<main class="portal-home">
+  <div class="portal-wrapper">
+    <header class="portal-header">
+      <div class="brand-logo-wrapper">
+        <img src="/assets/img/logo-coronel.png" alt="Cremería Hermanos Coronel" class="brand-logo">
+      </div>
+      <div class="brand-title">Cremería Hermanos Coronel</div>
+      <div class="brand-subtitle">Portal de Aplicaciones CHC</div>
+      <p class="welcome-text">Bienvenido al Hub de Páginas y Aplicaciones Coronel.</p>
+      <p class="subwelcome-text">Selecciona la herramienta que deseas utilizar.</p>
+    </header>
+
+    <section class="portal-feature-strip" aria-label="Accesos principales">
+      <a class="feature-card feature-directory" href="/directorio" data-title="Directorio de extensiones" data-description="Extensiones, oficinas, sucursales, teléfonos internos">
+        <div class="feature-icon"><i class="fa-solid fa-phone-volume"></i></div>
+        <div class="feature-content">
+          <span class="feature-kicker">Acceso principal</span>
+          <h1>Directorio de extensiones</h1>
+          <p>Busca rápido extensiones de sucursales, oficinas, panadería y vigilancia.</p>
+          <div class="feature-meta">
+            <span><strong><%= counts.extensions %></strong> extensiones</span>
+            <span><strong><%= counts.branches %></strong> sucursales</span>
+          </div>
+        </div>
+        <span class="feature-action">Abrir <i class="fa-solid fa-arrow-right"></i></span>
+      </a>
+
+      <article class="feature-card feature-locations" data-title="Ubicaciones sucursales como llegar mapas" data-description="Google Maps, rutas, direcciones, municipios">
+        <div class="feature-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+        <div class="feature-content">
+          <span class="feature-kicker">Sucursales</span>
+          <h1>Ubicaciones</h1>
+          <p>Encuentra sucursales por municipio y abre la ruta en Google Maps.</p>
+          <div class="feature-meta">
+            <span><strong><%= counts.locations %></strong> ubicaciones</span>
+            <span><strong><%= counts.offices %></strong> oficina</span>
+          </div>
+        </div>
+        <div class="feature-action-row">
+          <button type="button" id="open-map-modal" class="feature-action feature-action-button">Ver mapa <i class="fa-solid fa-map-location-dot"></i></button>
+          <a class="feature-action feature-action-link" href="/ubicaciones">Abrir página <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+    </section>
+
+
+    <div id="home-map-modal" class="home-map-modal" aria-hidden="true">
+      <div class="home-map-backdrop" data-close-map></div>
+      <section class="home-map-dialog" role="dialog" aria-modal="true" aria-labelledby="home-map-title">
+        <header class="home-map-header">
+          <div>
+            <span class="home-map-kicker"><i class="fa-solid fa-map-location-dot"></i> Mapa interactivo</span>
+            <h2 id="home-map-title">Ubicaciones de sucursales</h2>
+            <p>Busca una sucursal, visualiza el mapa y abre la ruta exacta con el enlace guardado.</p>
+          </div>
+          <button type="button" class="home-map-close" data-close-map aria-label="Cerrar mapa"><i class="fa-solid fa-xmark"></i></button>
+        </header>
+
+        <div class="home-map-body">
+          <aside class="home-map-side">
+            <div class="home-map-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input id="home-map-search" type="text" placeholder="Buscar sucursal o municipio..." autocomplete="off">
+            </div>
+            <select id="home-map-municipality" class="home-map-select" aria-label="Filtrar municipio">
+              <option value="">Todos los municipios</option>
+            </select>
+            <div id="home-map-list" class="home-map-list"></div>
+          </aside>
+
+          <div class="home-map-preview">
+            <div class="home-map-frame-wrap">
+              <iframe id="home-map-frame" title="Mapa de sucursal" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div id="home-map-loading" class="home-map-loading"><i class="fa-solid fa-location-dot"></i><span>Cargando mapa...</span></div>
+            </div>
+            <div class="home-map-info-card">
+              <div>
+                <span id="home-map-badge" class="home-map-badge">Sucursal</span>
+                <h3 id="home-map-branch-name">Selecciona una sucursal</h3>
+                <p id="home-map-branch-location">El mapa se mostrará aquí.</p>
+              </div>
+              <div class="home-map-actions">
+                <a id="home-map-route" href="/ubicaciones" target="_blank" rel="noopener noreferrer" class="home-map-route-button"><i class="fa-solid fa-diamond-turn-right"></i> Cómo llegar</a>
+                <a href="/ubicaciones" class="home-map-page-button"><i class="fa-solid fa-list"></i> Ver página completa</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="search-section portal-search-section">
+      <form class="search-bar-wrapper search-web-form" action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer">
+        <label class="search-label" for="web-search-input">Buscar en Google</label>
+        <div class="search-row">
+          <input id="web-search-input" class="search-input" type="text" name="q" placeholder="Buscar en la web..." autocomplete="off">
+          <button type="submit" class="search-submit-button">Buscar</button>
+        </div>
+      </form>
+
+      <div class="search-bar-wrapper">
+        <label class="search-label" for="portal-search-input">Buscar apps y herramientas del hub</label>
+        <input id="portal-search-input" class="search-input" type="text" placeholder="Buscar aplicaciones o herramientas..." autocomplete="off">
+      </div>
+    </section>
+
+    <section class="updates-board" aria-label="Cambios recientes en la plataforma">
+      <div class="updates-board-label"><i class="fa-solid fa-bullhorn"></i><span>Cambios recientes</span></div>
+      <div class="updates-board-track">
+        <div class="updates-board-content">
+          <span>Se agregó el nuevo directorio autoadministrable con ubicaciones.</span>
+          <span class="updates-divider">•</span>
+          <span>Directorio y Ubicaciones quedan como accesos principales.</span>
+          <span class="updates-divider">•</span>
+          <span>El panel admin permite actualizar extensiones y enlaces de Google Maps.</span>
+          <span class="updates-divider">•</span>
+          <span>Se conserva el hub de aplicaciones y enlaces de trabajo.</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="apps-section-title">Herramientas</div>
+    <nav class="tools-nav portal-tools" aria-label="Herramientas rápidas">
+      <a class="tool-nav-item tool-important" href="/directorio" data-title="Directorio de extensiones" data-description="Consulta extensiones telefónicas de oficinas y sucursales">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#8a1721,#f2b716);"><i class="fa-solid fa-phone-volume"></i></span>
+        <span class="tool-nav-label">Directorio</span>
+      </a>
+      <a class="tool-nav-item tool-important" href="/ubicaciones" data-title="Ubicaciones" data-description="Sucursales, municipios y rutas de Google Maps">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#16a34a,#0ea5e9);"><i class="fa-solid fa-map-location-dot"></i></span>
+        <span class="tool-nav-label">Ubicaciones</span>
+      </a>
+      <a class="tool-nav-item" href="https://www.ilovepdf.com/pdf_to_word" target="_blank" rel="noopener noreferrer" data-title="PDF a Word" data-description="Convierte PDF a Word">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#ef4444,#dc2626);"><i class="fa-solid fa-file-pdf"></i></span><span class="tool-nav-label">PDF a Word</span>
+      </a>
+      <a class="tool-nav-item" href="https://www.ilovepdf.com/es/word_a_pdf" target="_blank" rel="noopener noreferrer" data-title="Word a PDF" data-description="Convierte Word a PDF">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#a855f7,#7e22ce);"><i class="fa-solid fa-file-word"></i></span><span class="tool-nav-label">Word a PDF</span>
+      </a>
+      <a class="tool-nav-item" href="https://qrsave.netlify.app/" target="_blank" rel="noopener noreferrer" data-title="Generador de QR" data-description="Crea códigos QR">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#10b981,#059669);"><i class="fa-solid fa-qrcode"></i></span><span class="tool-nav-label">QR</span>
+      </a>
+      <a class="tool-nav-item" href="https://www.virustotal.com/gui/home/url" target="_blank" rel="noopener noreferrer" data-title="Validación de URLs" data-description="Analiza enlaces sospechosos">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#3b82f6,#1d4ed8);"><i class="fa-solid fa-shield-halved"></i></span><span class="tool-nav-label">Validar URL</span>
+      </a>
+      <a class="tool-nav-item" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" data-title="ChatGPT" data-description="Asistente IA">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#0ea5e9,#0369a1);"><i class="fa-solid fa-robot"></i></span><span class="tool-nav-label">ChatGPT</span>
+      </a>
+      <a class="tool-nav-item" href="https://teams.microsoft.com/" target="_blank" rel="noopener noreferrer" data-title="Teams" data-description="Reuniones y colaboración">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#6366f1,#4338ca);"><i class="fa-brands fa-microsoft"></i></span><span class="tool-nav-label">Teams</span>
+      </a>
+      <a class="tool-nav-item" href="https://outlook.office.com/mail/" target="_blank" rel="noopener noreferrer" data-title="Outlook" data-description="Correo corporativo">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#0ea5e9,#0369a1);"><i class="fa-solid fa-envelope"></i></span><span class="tool-nav-label">Outlook</span>
+      </a>
+      <a class="tool-nav-item" href="https://www.office.com/" target="_blank" rel="noopener noreferrer" data-title="Office 365 Online" data-description="Aplicaciones Office en la nube">
+        <span class="tool-nav-icon" style="background:linear-gradient(135deg,#f97316,#ea580c);"><i class="fa-solid fa-file-lines"></i></span><span class="tool-nav-label">Office 365</span>
+      </a>
+    </nav>
+
+    <div class="apps-section-title">Aplicaciones y sitios disponibles</div>
+    <section id="portal-apps-grid" class="apps-grid portal-apps-grid">
+      <article class="app-card app-soporte" data-url="https://soporte360.up.railway.app/" data-title="Soporte 360CHC" data-description="Mesa de ayuda y soporte técnico"><div class="app-card-icon"><i class="fa-solid fa-headset"></i></div><h2 class="app-card-title">Soporte 360CHC</h2><p class="app-card-description">Mesa de ayuda y soporte técnico.</p><div class="app-card-footer"><button class="app-card-button">Acceder <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-cobro-tarjeta" data-url="https://www.totalpos.eglobal.com.mx/TotalPos-web/" data-title="Portal de Cobro con Tarjeta" data-description="Operaciones de cobro con tarjeta"><div class="app-card-icon"><i class="fa-solid fa-credit-card"></i></div><h2 class="app-card-title">Portal de Cobro con Tarjeta</h2><p class="app-card-description">Acceso al portal para operaciones de cobro con tarjeta.</p><div class="app-card-footer"><button class="app-card-button">Acceder <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-incidencias" data-url="https://incidenciasrh2-production.up.railway.app/" data-title="Sistema de Incidencias" data-description="Registro y administración de incidencias y asistencias"><div class="app-card-icon"><i class="fa-solid fa-clipboard-list"></i></div><h2 class="app-card-title">Sistema de Incidencias</h2><p class="app-card-description">Registro y administración de incidencias y asistencias.</p><div class="app-card-footer app-card-footer-multi"><button class="app-card-button app-card-button-new" data-url="https://incidenciasrh2-production.up.railway.app/">V2 <span class="button-badge-new">Nueva</span></button><button class="app-card-button app-card-button-secondary" data-url="https://chcrh-production.up.railway.app/login.html">V1 <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-kpis-beta" data-url="https://kpimanagerchc-production.up.railway.app/" data-title="Gestión de KPIs" data-description="Tablero de indicadores y métricas"><div class="app-card-icon"><i class="fa-solid fa-chart-line"></i></div><h2 class="app-card-title">Gestión de KPIs</h2><p class="app-card-description">Tablero de indicadores y métricas.</p><div class="app-card-footer"><button class="app-card-button">Acceder <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-pedidos-backup" data-url="https://pedidosbackup-production.up.railway.app/" data-title="Envío de Pedidos Backup" data-description="Envío de pedidos de sucursales cuando hay problemas de sincronización"><span class="badge-new">Nuevo</span><div class="app-card-icon"><i class="fa-solid fa-box"></i></div><h2 class="app-card-title">Envío de Pedidos (Backup)</h2><p class="app-card-description">Envío de pedidos de sucursales cuando hay problemas de sincronización.</p><div class="app-card-footer"><button class="app-card-button">Acceder <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-cremeria" data-url="https://cremeriahermanoscoronel.com.mx" data-title="Cremería Hermanos Coronel" data-description="Sitio web principal"><div class="app-card-icon"><i class="fa-solid fa-cheese"></i></div><h2 class="app-card-title">Cremería Hermanos Coronel</h2><p class="app-card-description">Visitar el sitio web principal.</p><div class="app-card-footer"><button class="app-card-button">Visitar <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-extensor" data-url="https://extensorcoronel.com.mx" data-title="ExtensorCoronel" data-description="Sitio web de ExtensorCoronel"><div class="app-card-icon"><i class="fa-solid fa-fire-extinguisher"></i></div><h2 class="app-card-title">ExtensorCoronel</h2><p class="app-card-description">Visitar el sitio web de ExtensorCoronel.</p><div class="app-card-footer"><button class="app-card-button">Visitar <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-gastos" data-url="https://gastossucursaleschc.com.mx/wp-admin/" data-title="Gastos de Sucursales" data-description="Control y registro de gastos"><div class="app-card-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div><h2 class="app-card-title">Gastos de Sucursales</h2><p class="app-card-description">Control y registro de gastos.</p><div class="app-card-footer"><button class="app-card-button">Acceder <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-checklist" data-url="https://safetyculture.com/es/iauditor" data-title="Checklist de Supervisión" data-description="Checklists digitales"><div class="app-card-icon"><i class="fa-solid fa-clipboard-check"></i></div><h2 class="app-card-title">Checklist de Supervisión</h2><p class="app-card-description">Checklists digitales.</p><div class="app-card-footer"><button class="app-card-button">Acceder <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-talento" data-url="https://talentocoronel.com.mx/" data-title="Talento Coronel" data-description="Capacitación y desarrollo del personal"><div class="app-card-icon"><i class="fa-solid fa-graduation-cap"></i></div><h2 class="app-card-title">Talento Coronel</h2><p class="app-card-description">Capacitación y desarrollo del personal.</p><div class="app-card-footer"><button class="app-card-button">Acceder <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-gps" data-url="https://gstrackme.mx/login?lang=es" data-title="GPS Monitoreo de Vehículos" data-description="Rastreo GPS y monitoreo de unidades"><div class="app-card-icon"><i class="fa-solid fa-location-dot"></i></div><h2 class="app-card-title">GPS Monitoreo de Vehículos</h2><p class="app-card-description">Rastreo GPS y monitoreo de unidades.</p><div class="app-card-footer"><button class="app-card-button">Acceder <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></article>
+      <article class="app-card app-soon" data-soon="true" data-title="Portal de Inventario Electrónico" data-description="Módulo en desarrollo para control y consulta de inventario"><span class="badge-soon">Próximamente</span><div class="app-card-icon"><i class="fa-solid fa-boxes-stacked"></i></div><h2 class="app-card-title">Portal de Inventario Electrónico</h2><p class="app-card-description">Módulo en desarrollo para control y consulta de inventario.</p><div class="app-card-footer"><button class="app-card-button">Próximamente</button></div></article>
+      <article class="app-card app-soon" data-soon="true" data-title="Portal de Gestión Documental" data-description="Módulo en desarrollo para organización y consulta de documentos"><span class="badge-soon">Próximamente</span><div class="app-card-icon"><i class="fa-solid fa-folder-open"></i></div><h2 class="app-card-title">Portal de Gestión Documental</h2><p class="app-card-description">Módulo en desarrollo para organización y consulta de documentos.</p><div class="app-card-footer"><button class="app-card-button">Próximamente</button></div></article>
+    </section>
+
+    <p id="portal-no-results" class="no-results">No se encontraron coincidencias para tu búsqueda.</p>
+
+    <div class="portal-note"><strong>Nota:</strong> Todos los portales y algunas aplicaciones requieren <strong>credenciales de autenticación propias</strong>. En caso de no contar con acceso o requerirlo por funciones de su puesto, favor de <strong>solicitar las credenciales a su jefe directo</strong>.</div>
+
+    <div class="portal-admin-row">
+      <a href="/admin"><i class="fa-solid fa-user-shield"></i> Panel de administración</a>
+    </div>
+  </div>
+</main>
+<script>
+(function () {
+  const searchInput = document.getElementById('portal-search-input');
+  const items = Array.from(document.querySelectorAll('.feature-card, .tool-nav-item, .app-card'));
+  const noResults = document.getElementById('portal-no-results');
+
+  function normalize(text) {
+    return String(text || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
+  function filterItems() {
+    const query = normalize(searchInput.value.trim());
+    let visible = 0;
+    items.forEach((item) => {
+      const title = normalize(item.dataset.title || item.querySelector('h1, .app-card-title, .tool-nav-label')?.textContent || '');
+      const desc = normalize(item.dataset.description || item.querySelector('p, .app-card-description')?.textContent || '');
+      const match = !query || title.includes(query) || desc.includes(query);
+      item.style.display = match ? '' : 'none';
+      if (match) visible += 1;
+    });
+    if (noResults) noResults.style.display = visible ? 'none' : 'block';
+  }
+
+  if (searchInput) searchInput.addEventListener('input', filterItems);
+
+  const mapModal = document.getElementById('home-map-modal');
+  const openMapButton = document.getElementById('open-map-modal');
+  const closeMapButtons = document.querySelectorAll('[data-close-map]');
+  const mapSearch = document.getElementById('home-map-search');
+  const municipalitySelect = document.getElementById('home-map-municipality');
+  const mapList = document.getElementById('home-map-list');
+  const mapFrame = document.getElementById('home-map-frame');
+  const mapLoading = document.getElementById('home-map-loading');
+  const branchName = document.getElementById('home-map-branch-name');
+  const branchLocation = document.getElementById('home-map-branch-location');
+  const branchBadge = document.getElementById('home-map-badge');
+  const routeButton = document.getElementById('home-map-route');
+  let mapLocations = [];
+  let activeMapLocationId = null;
+
+  function buildMapEmbedUrl(location) {
+    const searchText = [location.name, location.municipality, 'Cremería Hermanos Coronel'].filter(Boolean).join(', ');
+    return `https://www.google.com/maps?q=${encodeURIComponent(searchText)}&output=embed`;
+  }
+
+  function setActiveLocation(location) {
+    if (!location) return;
+    activeMapLocationId = location.id;
+    if (mapLoading) mapLoading.classList.add('visible');
+    if (mapFrame) mapFrame.src = buildMapEmbedUrl(location);
+    if (branchName) branchName.textContent = location.name || 'Sucursal';
+    if (branchLocation) branchLocation.textContent = `${location.municipality || 'Municipio no asignado'}${location.status ? ' · ' + location.status : ''}`;
+    if (branchBadge) branchBadge.textContent = location.store_type || 'Sucursal';
+    if (routeButton) {
+      routeButton.href = location.maps_url || '/ubicaciones';
+      routeButton.target = location.maps_url ? '_blank' : '_self';
+      routeButton.innerHTML = location.maps_url
+        ? '<i class="fa-solid fa-diamond-turn-right"></i> Cómo llegar'
+        : '<i class="fa-solid fa-list"></i> Ver ubicaciones';
+    }
+    renderMapList();
+  }
+
+  function getFilteredMapLocations() {
+    const query = normalize(mapSearch?.value || '');
+    const municipality = municipalitySelect?.value || '';
+    return mapLocations.filter((location) => {
+      const text = normalize(`${location.name || ''} ${location.municipality || ''} ${location.store_type || ''}`);
+      const matchesQuery = !query || text.includes(query);
+      const matchesMunicipality = !municipality || location.municipality === municipality;
+      return matchesQuery && matchesMunicipality;
+    });
+  }
+
+  function renderMapList() {
+    if (!mapList) return;
+    const filtered = getFilteredMapLocations();
+    mapList.innerHTML = '';
+    if (!filtered.length) {
+      mapList.innerHTML = '<div class="home-map-empty">No encontré sucursales con ese filtro.</div>';
+      return;
+    }
+    filtered.slice(0, 80).forEach((location) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = `home-map-location-card${location.id === activeMapLocationId ? ' active' : ''}`;
+      button.innerHTML = `
+        <span class="home-map-location-icon"><i class="fa-solid fa-store"></i></span>
+        <span class="home-map-location-text">
+          <strong>${location.name || 'Sucursal'}</strong>
+          <small>${location.municipality || 'Sin municipio'}${location.branch_number ? ' · #' + location.branch_number : ''}</small>
+        </span>
+        <i class="fa-solid fa-chevron-right"></i>
+      `;
+      button.addEventListener('click', () => setActiveLocation(location));
+      mapList.appendChild(button);
+    });
+  }
+
+  function fillMunicipalities() {
+    if (!municipalitySelect) return;
+    const municipalities = Array.from(new Set(mapLocations.map((location) => location.municipality).filter(Boolean))).sort((a, b) => a.localeCompare(b, 'es'));
+    municipalities.forEach((municipality) => {
+      const option = document.createElement('option');
+      option.value = municipality;
+      option.textContent = municipality;
+      municipalitySelect.appendChild(option);
+    });
+  }
+
+  async function loadMapLocations() {
+    if (mapLocations.length) return;
+    if (mapList) mapList.innerHTML = '<div class="home-map-empty">Cargando sucursales...</div>';
+    try {
+      const response = await fetch('/api/locations');
+      const payload = await response.json();
+      mapLocations = (payload.data || []).filter((location) => !location.is_pending);
+      fillMunicipalities();
+      const firstWithMap = mapLocations.find((location) => location.maps_url) || mapLocations[0];
+      renderMapList();
+      if (firstWithMap) setActiveLocation(firstWithMap);
+    } catch (error) {
+      if (mapList) mapList.innerHTML = '<div class="home-map-empty">No se pudieron cargar las ubicaciones.</div>';
+    }
+  }
+
+  function openMapModal() {
+    if (!mapModal) return;
+    mapModal.classList.add('open');
+    mapModal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+    loadMapLocations();
+    setTimeout(() => mapSearch?.focus(), 80);
+  }
+
+  function closeMapModal() {
+    if (!mapModal) return;
+    mapModal.classList.remove('open');
+    mapModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+  }
+
+  if (openMapButton) openMapButton.addEventListener('click', openMapModal);
+  closeMapButtons.forEach((button) => button.addEventListener('click', closeMapModal));
+  if (mapSearch) mapSearch.addEventListener('input', renderMapList);
+  if (municipalitySelect) municipalitySelect.addEventListener('change', renderMapList);
+  if (mapFrame) mapFrame.addEventListener('load', () => mapLoading?.classList.remove('visible'));
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeMapModal();
+  });
+
+  document.querySelectorAll('.app-card').forEach((card) => {
+    const isSoon = card.dataset.soon === 'true';
+    const url = card.dataset.url;
+    function openTarget(targetUrl) {
+      if (isSoon) {
+        alert('Esta aplicación estará disponible próximamente.');
+        return;
+      }
+      if (targetUrl) window.open(targetUrl, '_blank', 'noopener,noreferrer');
+    }
+    card.addEventListener('click', () => openTarget(url));
+    card.querySelectorAll('.app-card-button').forEach((button) => {
+      button.addEventListener('click', (event) => {
+        event.stopPropagation();
+        openTarget(button.dataset.url || url);
+      });
+    });
+  });
+})();
+</script>
+<%- include('../partials/footer') %>

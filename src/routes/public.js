@@ -35,7 +35,35 @@ const directorySelect = `
     e.extension
 `;
 
-router.get('/', (req, res) => res.redirect('/directorio'));
+
+router.get('/', async (req, res, next) => {
+  try {
+    const rows = await query(`
+      SELECT
+        COUNT(*) AS extensions,
+        SUM(CASE WHEN type = 'SUCURSAL' THEN 1 ELSE 0 END) AS branches,
+        SUM(CASE WHEN type = 'OFICINA' THEN 1 ELSE 0 END) AS offices
+      FROM extensions
+      WHERE is_visible = 1
+    `);
+    const locationRows = await query(`
+      SELECT COUNT(*) AS locations
+      FROM locations
+      WHERE is_active = 1
+    `);
+    res.render('public/home', {
+      title: 'Inicio',
+      counts: {
+        extensions: Number(rows[0]?.extensions || 0),
+        branches: Number(rows[0]?.branches || 0),
+        offices: Number(rows[0]?.offices || 0),
+        locations: Number(locationRows[0]?.locations || 0)
+      }
+    });
+  } catch (error) {
+    next(error);
+  }
+});
 
 router.get('/directorio', async (req, res, next) => {
   try {

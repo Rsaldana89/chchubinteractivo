@@ -6,6 +6,7 @@ Nueva versión autoadministrable del directorio de extensiones y ubicaciones de 
 
 - Aplicación Node.js con Express.
 - Base de datos MySQL.
+- Página inicial `/` como Hub Central con accesos rápidos.
 - Directorio público `/directorio` con búsqueda y filtros.
 - Página pública `/ubicaciones` con tarjetas y botón **Cómo llegar**.
 - Panel admin `/admin` para crear, editar y eliminar extensiones y ubicaciones.
@@ -53,6 +54,7 @@ npm start
 
 Abre:
 
+- Inicio: `http://localhost:3000/`
 - Directorio: `http://localhost:3000/directorio`
 - Ubicaciones: `http://localhost:3000/ubicaciones`
 - Admin: `http://localhost:3000/admin`
@@ -75,3 +77,7 @@ En el panel entra a **Extensiones**, edita una extensión de tipo `SUCURSAL` y s
 - Cambia la contraseña del usuario admin después de la primera entrada.
 - Configura HTTPS si lo publicas fuera de red local.
 - Para alto tráfico, conviene reemplazar el `MemoryStore` de sesiones por un store persistente.
+
+## Cambio v5: mapa interactivo en el Hub
+
+La página inicial ahora incluye un botón **Ver mapa** en la tarjeta de Ubicaciones. Abre un recuadro modal con buscador, filtro por municipio, lista de sucursales y vista previa de mapa. El botón **Cómo llegar** utiliza el `maps_url` guardado en la base de datos para abrir la ruta exacta en Google Maps.
