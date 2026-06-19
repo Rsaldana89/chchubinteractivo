@@ -1,0 +1,57 @@
+<%- include('../partials/head', { title }) %>
+<div class="admin-layout">
+  <%- include('../partials/admin-nav') %>
+  <main class="admin-main">
+    <div class="admin-header">
+      <div>
+        <p class="admin-kicker">Ubicaciones</p>
+        <h1><%= formTitle %></h1>
+      </div>
+      <a class="admin-button ghost" href="/admin/locations"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+    </div>
+    <%- include('../partials/flash') %>
+
+    <section class="admin-card">
+      <form method="post" action="<%= action %>" class="form-grid">
+        <label>Número de sucursal
+          <input name="branch_number" type="number" min="1" value="<%= item.branch_number || '' %>">
+        </label>
+        <label>Tipo
+          <select name="store_type">
+            <% storeTypes.forEach((type) => { %>
+              <option value="<%= type %>" <%= item.store_type === type ? 'selected' : '' %>><%= type %></option>
+            <% }) %>
+          </select>
+        </label>
+        <label>Nombre de sucursal
+          <input name="name" value="<%= item.name || '' %>" required>
+        </label>
+        <label>Municipio
+          <input name="municipality" value="<%= item.municipality || '' %>">
+        </label>
+        <label class="form-wide">Enlace Google Maps para botón “Cómo llegar”
+          <input name="maps_url" type="url" value="<%= item.maps_url || '' %>" placeholder="https://maps.app.goo.gl/...">
+        </label>
+        <label>Estatus
+          <input name="status" value="<%= item.status || 'Activa' %>">
+        </label>
+        <label class="checkbox-row">
+          <input name="is_pending" type="checkbox" value="1" <%= item.is_pending ? 'checked' : '' %>>
+          <span>Marcar como pendiente / próximamente</span>
+        </label>
+        <label class="checkbox-row">
+          <input name="is_active" type="checkbox" value="1" <%= item.is_active === undefined || item.is_active ? 'checked' : '' %>>
+          <span>Ubicación activa</span>
+        </label>
+        <label class="form-wide">Notas
+          <textarea name="notes" rows="4"><%= item.notes || '' %></textarea>
+        </label>
+        <div class="form-actions form-wide">
+          <button class="admin-button primary" type="submit"><i class="fa-solid fa-floppy-disk"></i> Guardar</button>
+          <a class="admin-button ghost" href="/admin/locations">Cancelar</a>
+        </div>
+      </form>
+    </section>
+  </main>
+</div>
+<%- include('../partials/footer') %>

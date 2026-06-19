@@ -1,0 +1,50 @@
+<%- include('../partials/head', { title }) %>
+<main class="public-shell directory-wrapper">
+  <div class="public-topbar">
+    <a class="back-link" href="/directorio"><i class="fa-solid fa-arrow-left"></i> Directorio</a>
+    <a class="admin-link" href="/admin"><i class="fa-solid fa-lock"></i> Admin</a>
+  </div>
+
+  <section class="directory-hero locations-hero">
+    <div class="directory-hero-content">
+      <div class="hero-kicker"><i class="fa-solid fa-map-location-dot"></i> Ubicaciones</div>
+      <h1>Sucursales CHC</h1>
+      <p>Listado autoadministrable de ubicaciones. El botón de “Cómo llegar” usa el enlace de Google Maps guardado en la base de datos.</p>
+    </div>
+    <div class="directory-hero-card">
+      <img src="/assets/img/logo-coronel.png" alt="Cremería Hermanos Coronel">
+      <div class="hero-stat-big"><%= locations.length %></div>
+      <div class="hero-stat-label">ubicaciones registradas</div>
+    </div>
+  </section>
+
+  <section class="directory-panel">
+    <div class="directory-search-box">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input id="location-search" type="search" placeholder="Buscar por sucursal o municipio..." autocomplete="off">
+    </div>
+  </section>
+
+  <section class="location-grid" id="location-grid">
+    <% locations.forEach((location) => { %>
+      <article class="location-card" data-search="<%= [location.name, location.municipality, location.status, location.store_type].join(' ').toLowerCase() %>">
+        <div class="location-card-top">
+          <span class="extension-badge"><%= location.store_type %></span>
+          <% if (location.branch_number) { %><span class="location-number">#<%= location.branch_number %></span><% } %>
+        </div>
+        <h3><%= location.name %></h3>
+        <p><i class="fa-solid fa-location-dot"></i> <%= location.municipality || 'Sin municipio' %></p>
+        <p class="location-status <%= location.is_pending ? 'pending' : '' %>"><%= location.status %></p>
+        <% if (location.maps_url) { %>
+          <a class="extension-action maps full" href="<%= location.maps_url %>" target="_blank" rel="noopener"><i class="fa-solid fa-route"></i> Cómo llegar</a>
+        <% } else { %>
+          <span class="location-no-map"><i class="fa-solid fa-circle-info"></i> Sin enlace de Maps</span>
+        <% } %>
+      </article>
+    <% }) %>
+  </section>
+  <p id="location-empty" class="directory-empty"><i class="fa-solid fa-circle-info"></i> No se encontraron ubicaciones.</p>
+</main>
+<script>window.LOCATIONS = <%- locationsJson %>;</script>
+<script src="/js/ubicaciones.js"></script>
+<%- include('../partials/footer') %>

@@ -1,0 +1,21 @@
+{
+  "name": "hubcentral-chc-node",
+  "version": "1.0.0",
+  "description": "Hub Central CHC autoadministrable con Node.js, Express y MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check src/db.js && node --check src/auth.js && node --check src/routes/public.js && node --check src/routes/admin.js && node --check src/routes/api.js && node --check src/utils/password.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.11.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

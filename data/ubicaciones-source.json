@@ -1,0 +1,1118 @@
+{
+  "tiendas": [
+    {
+      "num": 1,
+      "tipo": "HC",
+      "tienda": "Abastos",
+      "municipio": "Querétaro",
+      "lat": 20.57017850474876,
+      "lng": -100.37474486240687,
+      "url": "https://maps.app.goo.gl/dDL8HcPvFxK6qACQ6"
+    },
+    {
+      "num": 2,
+      "tipo": "HC",
+      "tienda": "Carrillo",
+      "municipio": "Querétaro",
+      "lat": 20.603222096456218,
+      "lng": -100.42904326536053,
+      "url": "https://maps.app.goo.gl/b5We3ZAkcW82Sybf7"
+    },
+    {
+      "num": 3,
+      "tipo": "HC",
+      "tienda": "Sauces",
+      "municipio": "Querétaro",
+      "lat": 20.622403299319597,
+      "lng": -100.44593835685836,
+      "url": "https://maps.app.goo.gl/3vo2RKxqXxsdKdQ97"
+    },
+    {
+      "num": 4,
+      "tipo": "HC",
+      "tienda": "Presidentes",
+      "municipio": "Querétaro",
+      "lat": 20.56630679698284,
+      "lng": -100.38477441214447,
+      "url": "https://maps.app.goo.gl/mR3859iWoC9uupyp7"
+    },
+    {
+      "num": 5,
+      "tipo": "HC",
+      "tienda": "San Roque",
+      "municipio": "Querétaro",
+      "lat": 20.603346981764375,
+      "lng": -100.39459818799429,
+      "url": "https://maps.app.goo.gl/4XjjshWSaiJ68kgs9"
+    },
+    {
+      "num": 6,
+      "tipo": "HC",
+      "tienda": "Satelite",
+      "municipio": "Querétaro",
+      "lat": 20.637487443427435,
+      "lng": -100.44893345028896,
+      "url": "https://maps.app.goo.gl/MafEGGf2djKBkGaQ9"
+    },
+    {
+      "num": 7,
+      "tipo": "HC",
+      "tienda": "Plazas del Sol",
+      "municipio": "Querétaro",
+      "lat": 20.56666444858049,
+      "lng": -100.37582247925765,
+      "url": "https://maps.app.goo.gl/QqZpuiaZXJYfwE1UA"
+    },
+    {
+      "num": 8,
+      "tipo": "HC",
+      "tienda": "Pie de la cuesta 1",
+      "municipio": "Querétaro",
+      "lat": 20.647626868358426,
+      "lng": -100.40433702217382,
+      "url": "https://maps.app.goo.gl/ZVNMPNjGwLtaGLPm8"
+    },
+    {
+      "num": 9,
+      "tipo": "HC",
+      "tienda": "Lomas del Marqués",
+      "municipio": "Querétaro",
+      "lat": 20.610517798393534,
+      "lng": -100.3672163472596,
+      "url": "https://maps.app.goo.gl/69996JWu3QjMkZDV6"
+    },
+    {
+      "num": 10,
+      "tipo": "HC",
+      "tienda": "Cerrito Colorado",
+      "municipio": "Querétaro",
+      "lat": 20.633447992102983,
+      "lng": -100.46147748977022,
+      "url": "https://maps.app.goo.gl/baKpvGL4bEnM7q137"
+    },
+    {
+      "num": 11,
+      "tipo": "HC",
+      "tienda": "Andadores",
+      "municipio": "Querétaro",
+      "lat": 20.560003713656453,
+      "lng": -100.38943559999998,
+      "url": "https://maps.app.goo.gl/yECTzBpzXZLsntJo9"
+    },
+    {
+      "num": 12,
+      "tipo": "HC",
+      "tienda": "Reforma Agraria",
+      "municipio": "Querétaro",
+      "lat": 20.558517606251325,
+      "lng": -100.3967768907472,
+      "url": "https://maps.app.goo.gl/ircjPvYJHqRCNGSMA"
+    },
+    {
+      "num": 13,
+      "tipo": "HC",
+      "tienda": "Tintero 1",
+      "municipio": "Querétaro",
+      "lat": 20.610467495388583,
+      "lng": -100.4344494526586,
+      "url": "https://maps.app.goo.gl/ZJ6s1dD7izuuSY4N8"
+    },
+    {
+      "num": 14,
+      "tipo": "HC",
+      "tienda": "Tejeda 1",
+      "municipio": "Corregidora",
+      "lat": 20.546839247472587,
+      "lng": -100.4216912711642,
+      "url": "https://maps.app.goo.gl/ks24XL6kT1umV7st6"
+    },
+    {
+      "num": 15,
+      "tipo": "HC",
+      "tienda": "Satelite 2",
+      "municipio": "Querétaro",
+      "lat": 20.641171782348387,
+      "lng": -100.45021254656822,
+      "url": "https://maps.app.goo.gl/H1NvfVg7qkKN1hV28"
+    },
+    {
+      "num": 16,
+      "tipo": "HC",
+      "tienda": "Ensueño",
+      "municipio": "Querétaro",
+      "lat": 20.582967932968394,
+      "lng": -100.41668487116374,
+      "url": "https://maps.app.goo.gl/VmGVPMG5bRRcWDBB8"
+    },
+    {
+      "num": 17,
+      "tipo": "HC",
+      "tienda": "Candiles 1",
+      "municipio": "Corregidora",
+      "lat": 20.554182748432204,
+      "lng": -100.41179772701294,
+      "url": "https://maps.app.goo.gl/uuEfC5axWFDUm2dn7"
+    },
+    {
+      "num": 18,
+      "tipo": "HC",
+      "tienda": "Cerrito Colorado 2",
+      "municipio": "Querétaro",
+      "lat": 20.63535944174562,
+      "lng": -100.46788548025224,
+      "url": "https://maps.app.goo.gl/kBJskpWz4bFGuBam9"
+    },
+    {
+      "num": 19,
+      "tipo": "HC",
+      "tienda": "Tejeda 2",
+      "municipio": "Corregidora",
+      "lat": 20.544461565674016,
+      "lng": -100.41578263505994,
+      "url": "https://maps.app.goo.gl/krc1MZEFUdvfh5426"
+    },
+    {
+      "num": 20,
+      "tipo": "HC",
+      "tienda": "Pie de la cuesta 2",
+      "municipio": "Querétaro",
+      "lat": 20.651689392796023,
+      "lng": -100.40353328704607,
+      "url": "https://maps.app.goo.gl/kdT9kEyT63nPQvFE8"
+    },
+    {
+      "num": 21,
+      "tipo": "HC",
+      "tienda": "Paseo San Miguel",
+      "municipio": "Querétaro",
+      "lat": 20.654439129772452,
+      "lng": -100.47368368519551,
+      "url": "https://maps.app.goo.gl/5yJGhKBsheP3MbS59"
+    },
+    {
+      "num": 22,
+      "tipo": "HC",
+      "tienda": "La pradera 2",
+      "municipio": "El Marqués",
+      "lat": 20.65680942055406,
+      "lng": -100.34200009582072,
+      "url": "https://maps.app.goo.gl/QxsaGmPa3vNyrtHV9"
+    },
+    {
+      "num": 23,
+      "tipo": "HC",
+      "tienda": "Loarca",
+      "municipio": "Querétaro",
+      "lat": 20.65656021056371,
+      "lng": -100.46379138519548,
+      "url": "https://maps.app.goo.gl/kh78LgTuaFy2GgCz8"
+    },
+    {
+      "num": 24,
+      "tipo": "HC",
+      "tienda": "San Miguel de Allende 1",
+      "municipio": "San Miguel Allende",
+      "lat": 20.91571953125127,
+      "lng": -100.7409912781286,
+      "url": "https://maps.app.goo.gl/74zSHRm1G5joSPqK8"
+    },
+    {
+      "num": 25,
+      "tipo": "HC",
+      "tienda": "San Juan de Letrán",
+      "municipio": "Querétaro",
+      "lat": 20.570659431367236,
+      "lng": -100.37467476109664,
+      "url": "https://maps.app.goo.gl/DeJxcBoyC3SuFui9A"
+    },
+    {
+      "num": 26,
+      "tipo": "HC",
+      "tienda": "Cerrito Colorado 3",
+      "municipio": "Querétaro",
+      "lat": 20.634420891036644,
+      "lng": -100.45756839868814,
+      "url": "https://maps.app.goo.gl/RveQYBHRxpLJJefA6"
+    },
+    {
+      "num": 27,
+      "tipo": "HC",
+      "tienda": "San Pablo",
+      "municipio": "Querétaro",
+      "lat": 20.618382368324596,
+      "lng": -100.42085708685906,
+      "url": "https://maps.app.goo.gl/H45uxbaBR11HAfBe9"
+    },
+    {
+      "num": 28,
+      "tipo": "HC",
+      "tienda": "La Pradera 1",
+      "municipio": "El Marqués",
+      "lat": 20.653500187850558,
+      "lng": -100.34246724841879,
+      "url": "https://maps.app.goo.gl/5Em7mZiTPePjwAQXA"
+    },
+    {
+      "num": 29,
+      "tipo": "HC",
+      "tienda": "Campo Militar",
+      "municipio": "Querétaro",
+      "lat": 20.595197122342917,
+      "lng": -100.42782580828657,
+      "url": "https://maps.app.goo.gl/14c63nWwxGqYR9Ga8"
+    },
+    {
+      "num": 30,
+      "tipo": "HC",
+      "tienda": "Hacienda la cruz",
+      "municipio": "El Marqués",
+      "lat": 20.633058811465965,
+      "lng": -100.2603520428671,
+      "url": "https://maps.app.goo.gl/BxhxKpVpqUYbkcsc8"
+    },
+    {
+      "num": 31,
+      "tipo": "HC",
+      "tienda": "Miranda",
+      "municipio": "El Marqués",
+      "lat": 20.569172757009355,
+      "lng": -100.32282295635972,
+      "url": "https://maps.app.goo.gl/bFnrAyoYHkDD5LV18"
+    },
+    {
+      "num": 32,
+      "tipo": "MC",
+      "tienda": "El Mirador",
+      "municipio": "El Marqués",
+      "lat": 20.597723565519242,
+      "lng": -100.33286219613275,
+      "url": "https://maps.app.goo.gl/9MYxa4wr2vwucY7x8"
+    },
+    {
+      "num": 33,
+      "tipo": "HC",
+      "tienda": "Insurgentes",
+      "municipio": "Querétaro",
+      "lat": 20.63149162794099,
+      "lng": -100.44440670477852,
+      "url": "https://maps.app.goo.gl/tYVrPLuk3pTxpUfY6"
+    },
+    {
+      "num": 34,
+      "tipo": "HC",
+      "tienda": "Paseos del Pedregal",
+      "municipio": "Querétaro",
+      "lat": 20.66164266798497,
+      "lng": -100.40086326066553,
+      "url": "https://maps.app.goo.gl/rC5UhiACmWXxUg5p7"
+    },
+    {
+      "num": 35,
+      "tipo": "HC",
+      "tienda": "Juriquilla 1",
+      "municipio": "Querétaro",
+      "lat": 20.6946710231761,
+      "lng": -100.46877168334493,
+      "url": "https://maps.app.goo.gl/M8hc3bEHBRSDExCv9"
+    },
+    {
+      "num": 36,
+      "tipo": "HC",
+      "tienda": "Real de la Loma",
+      "municipio": "Querétaro",
+      "lat": 20.646214276895304,
+      "lng": -100.46912108704606,
+      "url": "https://maps.app.goo.gl/UNGemGQEbtb62i9T9"
+    },
+    {
+      "num": 37,
+      "tipo": "HC",
+      "tienda": "Av de la luz",
+      "municipio": "Querétaro",
+      "lat": 20.631100854125503,
+      "lng": -100.46813344506796,
+      "url": "https://maps.app.goo.gl/yNwSbCQkrT9NxN8S6"
+    },
+    {
+      "num": 38,
+      "tipo": "HC",
+      "tienda": "Viñedos",
+      "municipio": "Querétaro",
+      "lat": 20.607203974240488,
+      "lng": -100.48355858707949,
+      "url": "https://maps.app.goo.gl/arZdz9vttxzzKioT9"
+    },
+    {
+      "num": 39,
+      "tipo": "HC",
+      "tienda": "Santa María",
+      "municipio": "Querétaro",
+      "lat": 20.598750236444722,
+      "lng": -100.44696894101656,
+      "url": "https://maps.app.goo.gl/JUaVamRftQzoTUURA"
+    },
+    {
+      "num": 40,
+      "tipo": "HC",
+      "tienda": "Tintero 2 ( Ex hacienda tintero )",
+      "municipio": "Querétaro",
+      "lat": 20.606112930380547,
+      "lng": -100.43404383731543,
+      "url": "https://maps.app.goo.gl/N4az5tEuZJ2ASS7y6"
+    },
+    {
+      "num": 41,
+      "tipo": "HC",
+      "tienda": "El Refugio 1",
+      "municipio": "Querétaro",
+      "lat": 20.644501537695696,
+      "lng": -100.35036813307558,
+      "url": "https://maps.app.goo.gl/VTjegxkpQNv3vrBc6"
+    },
+    {
+      "num": 42,
+      "tipo": "HC",
+      "tienda": "Villas de Santiago",
+      "municipio": "Querétaro",
+      "lat": 20.65508666443166,
+      "lng": -100.39972745026934,
+      "url": "https://maps.app.goo.gl/eZ1y3ZBj2jLbWf8v5"
+    },
+    {
+      "num": 43,
+      "tipo": "HC",
+      "tienda": "Ciudad del Sol",
+      "municipio": "Querétaro",
+      "lat": 20.638861845042502,
+      "lng": -100.48877395635971,
+      "url": "https://maps.app.goo.gl/abfhH2QSvCeGUm6H9"
+    },
+    {
+      "num": 44,
+      "tipo": "HC",
+      "tienda": "Milenio",
+      "municipio": "Querétaro",
+      "lat": 20.597488522477814,
+      "lng": -100.35990251588186,
+      "url": "https://maps.app.goo.gl/8azbznYKAhzrz9CR7"
+    },
+    {
+      "num": 45,
+      "tipo": "HC",
+      "tienda": "Prol Pasteur",
+      "municipio": "Querétaro",
+      "lat": 20.551877105032386,
+      "lng": -100.382543394987,
+      "url": "https://maps.app.goo.gl/x7My78cWL8gwPTNw8"
+    },
+    {
+      "num": 46,
+      "tipo": "HC",
+      "tienda": "Sonterra",
+      "municipio": "Querétaro",
+      "lat": 20.613192356681182,
+      "lng": -100.4916728084796,
+      "url": "https://maps.app.goo.gl/RAMDqLxXn1XwzNGy8"
+    },
+    {
+      "num": 47,
+      "tipo": "HC",
+      "tienda": "Valle Diamante",
+      "municipio": "Corregidora",
+      "lat": 20.553244433056356,
+      "lng": -100.4009601042398,
+      "url": "https://maps.app.goo.gl/9wkvukrBb8AYGcap8"
+    },
+    {
+      "num": 48,
+      "tipo": "HC",
+      "tienda": "Valle de Santiago",
+      "municipio": "Querétaro",
+      "lat": 20.641126481765564,
+      "lng": -100.47745938334492,
+      "url": "https://maps.app.goo.gl/5oeybsSr8Rs8oFCG9"
+    },
+    {
+      "num": 49,
+      "tipo": "HC",
+      "tienda": "Sauces 2",
+      "municipio": "Querétaro",
+      "lat": 20.62368730952595,
+      "lng": -100.44487785635972,
+      "url": "https://maps.app.goo.gl/JTbycfr2kFCPekdY7"
+    },
+    {
+      "num": 50,
+      "tipo": "HC",
+      "tienda": "Vista Real",
+      "municipio": "Corregidora",
+      "lat": 20.52255600890305,
+      "lng": -100.40725704804721,
+      "url": "https://maps.app.goo.gl/wb22nGFh3BUgmKMh8"
+    },
+    {
+      "num": 51,
+      "tipo": "HC",
+      "tienda": "Los Héroes",
+      "municipio": "El Marqués",
+      "lat": 20.62263477837524,
+      "lng": -100.27037964155522,
+      "url": "https://maps.app.goo.gl/PT1Nr8edBjrwSkgZ7"
+    },
+    {
+      "num": 52,
+      "tipo": "HC",
+      "tienda": "Rincones del Marqués",
+      "municipio": "El Marqués",
+      "lat": 20.582908133396018,
+      "lng": -100.27803658616506,
+      "url": "https://maps.app.goo.gl/SRoQPnVHWKLTQqUq6"
+    },
+    {
+      "num": 53,
+      "tipo": "HC",
+      "tienda": "Puerta Verona",
+      "municipio": "Querétaro",
+      "lat": 20.629712581059067,
+      "lng": -100.49684247372417,
+      "url": "https://maps.app.goo.gl/KbtKVRaZmWuXgoiP8"
+    },
+    {
+      "num": 54,
+      "tipo": "HC",
+      "tienda": "Real Solare",
+      "municipio": "El Marqués",
+      "lat": 20.590562374748334,
+      "lng": -100.28450170236512,
+      "url": "https://maps.app.goo.gl/w8Y3tmT34sUjtY119"
+    },
+    {
+      "num": 55,
+      "tipo": "HC",
+      "tienda": "Ciudad del Sol 2",
+      "municipio": "Querétaro",
+      "lat": 20.64543033780368,
+      "lng": -100.49260513307561,
+      "url": "https://maps.app.goo.gl/Y1XEh6DL93ixqYCK6"
+    },
+    {
+      "num": 56,
+      "tipo": "HC",
+      "tienda": "Santuario",
+      "municipio": "Corregidora",
+      "lat": 20.554355325018097,
+      "lng": -100.44796628859208,
+      "url": "https://maps.app.goo.gl/gjsodumxetbug6Ac6"
+    },
+    {
+      "num": 57,
+      "tipo": "HC",
+      "tienda": "Los Olvera",
+      "municipio": "Corregidora",
+      "lat": 20.53489495276113,
+      "lng": -100.40501776349078,
+      "url": "https://maps.app.goo.gl/414YsCvuoxKfPbkSA"
+    },
+    {
+      "num": 58,
+      "tipo": "HC",
+      "tienda": "Real del Bosque",
+      "municipio": "Corregidora",
+      "lat": 20.50704201180513,
+      "lng": -100.40067953546485,
+      "url": "https://maps.app.goo.gl/DiVzXBEMVmb8ZYvQ9"
+    },
+    {
+      "num": 59,
+      "tipo": "HC",
+      "tienda": "Alcanfores",
+      "municipio": "Querétaro",
+      "lat": 20.603958230207663,
+      "lng": -100.40612122752391,
+      "url": "https://maps.app.goo.gl/Ty2GwUtTyMLVPgRMA"
+    },
+    {
+      "num": 60,
+      "tipo": "HC",
+      "tienda": "San Miguel de Allende 2",
+      "municipio": "San Miguel Allende",
+      "lat": 20.968896210688904,
+      "lng": -100.76850369498699,
+      "url": "https://maps.app.goo.gl/E4vchv9gk9RD9tgi7"
+    },
+    {
+      "num": 61,
+      "tipo": "HC",
+      "tienda": "San Isidro",
+      "municipio": "Querétaro",
+      "lat": 20.742107473150362,
+      "lng": -100.46719665656096,
+      "url": "https://maps.app.goo.gl/X3prNJoZtbVHetfH6"
+    },
+    {
+      "num": 62,
+      "tipo": "MC",
+      "tienda": "Plaza Atelier",
+      "municipio": "Querétaro",
+      "lat": 20.708405224309434,
+      "lng": -100.44109504155522,
+      "url": "https://maps.app.goo.gl/bSo43CQqGpfdr5bR7"
+    },
+    {
+      "num": 63,
+      "tipo": "HC",
+      "tienda": "Tecnologico",
+      "municipio": "Querétaro",
+      "lat": 20.59095866017093,
+      "lng": -100.4046477466521,
+      "url": "https://maps.app.goo.gl/kSTzP2X3yugh7p2a8"
+    },
+    {
+      "num": 64,
+      "tipo": "HC",
+      "tienda": "Candiles 2",
+      "municipio": "Corregidora",
+      "lat": 20.545926043879533,
+      "lng": -100.40434216615122,
+      "url": "https://maps.app.goo.gl/PPXAEfA6ZCcFyizA8"
+    },
+    {
+      "num": 65,
+      "tipo": "HC",
+      "tienda": "El Refugio 2",
+      "municipio": "Querétaro",
+      "lat": 20.652937367199833,
+      "lng": -100.34955340107739,
+      "url": "https://maps.app.goo.gl/k2DbbbkBgx4ENSQJ8"
+    },
+    {
+      "num": 66,
+      "tipo": "HC",
+      "tienda": "Jacal",
+      "municipio": "Corregidora",
+      "lat": 20.55816453047307,
+      "lng": -100.4348588497249,
+      "url": "https://maps.app.goo.gl/UUu4YgHaGcoJ3PC2A"
+    },
+    {
+      "num": 67,
+      "tipo": "HC",
+      "tienda": "Jardines de la hacienda",
+      "municipio": "Querétaro",
+      "lat": 20.56468076793357,
+      "lng": -100.41893671799077,
+      "url": "https://maps.app.goo.gl/kk2uff7U9Efdypu98"
+    },
+    {
+      "num": 68,
+      "tipo": "HC",
+      "tienda": "Av del sol",
+      "municipio": "Querétaro",
+      "lat": 20.617648646416754,
+      "lng": -100.43817093208042,
+      "url": "https://maps.app.goo.gl/7J8yCncrWhqomXrn6"
+    },
+    {
+      "num": 69,
+      "tipo": "HC",
+      "tienda": "Plaza Candiles",
+      "municipio": "Corregidora",
+      "lat": 20.545513208253485,
+      "lng": -100.39835270658237,
+      "url": "https://maps.app.goo.gl/yJduHX5EbW2EfM396"
+    },
+    {
+      "num": 70,
+      "tipo": "HC",
+      "tienda": "Los huertos",
+      "municipio": "Querétaro",
+      "lat": 20.646190516710636,
+      "lng": -100.37543934286708,
+      "url": "https://maps.app.goo.gl/hr1x4h2PokiTnYSZ6"
+    },
+    {
+      "num": 71,
+      "tipo": "HC",
+      "tienda": "Av Cimatario",
+      "municipio": "Querétaro",
+      "lat": 20.58072534826885,
+      "lng": -100.37407135767126,
+      "url": "https://share.google/uWBjtvKQVwiMIcS8Y"
+    },
+    {
+      "num": 72,
+      "tipo": "HC",
+      "tienda": "Platón",
+      "municipio": "Querétaro",
+      "lat": 20.636462848015547,
+      "lng": -100.40072774649181,
+      "url": "https://maps.app.goo.gl/UYP7qGgLkYNMAqWLA"
+    },
+    {
+      "num": 73,
+      "tipo": "HC",
+      "tienda": "Piramides",
+      "municipio": "Corregidora",
+      "lat": 20.542782489271207,
+      "lng": -100.45040699868812,
+      "url": "https://maps.app.goo.gl/zZXaQbGNjQAeKEuA7"
+    },
+    {
+      "num": 74,
+      "tipo": "MC",
+      "tienda": "Zibata 1",
+      "municipio": "El Marqués",
+      "lat": 20.68140625557525,
+      "lng": -100.33946783916596,
+      "url": "https://maps.app.goo.gl/F4pRHM6TGjvbjH5k8"
+    },
+    {
+      "num": 75,
+      "tipo": "HC",
+      "tienda": "Juriquilla 2",
+      "municipio": "Querétaro",
+      "lat": 20.684597332762053,
+      "lng": -100.46717376183369,
+      "url": "https://maps.app.goo.gl/Ko2ARVWhLYuNQLGz6"
+    },
+    {
+      "num": 76,
+      "tipo": "MC",
+      "tienda": "Zakia",
+      "municipio": "El Marqués",
+      "lat": 20.66335787645421,
+      "lng": -100.31769468889664,
+      "url": "https://maps.app.goo.gl/6f6bFsvzfyDPHKCEA"
+    },
+    {
+      "num": 77,
+      "tipo": "HC",
+      "tienda": "Puerta Navarra",
+      "municipio": "Querétaro",
+      "lat": 20.63347741206452,
+      "lng": -100.48324338381474,
+      "url": "https://maps.app.goo.gl/xFd4AQjVmJWXctWp8"
+    },
+    {
+      "num": 78,
+      "tipo": "HC",
+      "tienda": "Pedro Escobedo",
+      "municipio": "Pedro Escobedo",
+      "lat": 20.500006271719613,
+      "lng": -100.14170596615119,
+      "url": "https://maps.app.goo.gl/svrpqisjUtpWTghh8"
+    },
+    {
+      "num": 79,
+      "tipo": "HC",
+      "tienda": "Geo plazas",
+      "municipio": "Querétaro",
+      "lat": 20.623780923705432,
+      "lng": -100.4596510472478,
+      "url": "https://maps.app.goo.gl/xW9VseDQiyooSSuAA"
+    },
+    {
+      "num": 80,
+      "tipo": "HC",
+      "tienda": "Candiles 3",
+      "municipio": "Corregidora",
+      "lat": 20.5410842660146,
+      "lng": -100.40163460895374,
+      "url": "https://maps.app.goo.gl/i6GnqAkwj73UfxY48"
+    },
+    {
+      "num": 81,
+      "tipo": "HC",
+      "tienda": "Palmares",
+      "municipio": "Querétaro",
+      "lat": 20.657754390386078,
+      "lng": -100.42537059922681,
+      "url": "https://maps.app.goo.gl/Tar4zuQRwSuMCvPq7"
+    },
+    {
+      "num": 82,
+      "tipo": "HC",
+      "tienda": "Pedro Escobedo 2",
+      "municipio": "Pedro Escobedo",
+      "lat": 20.501322915142712,
+      "lng": -100.14421920238925,
+      "url": "https://maps.app.goo.gl/5A8xtX7nkFeYh5Mx9"
+    },
+    {
+      "num": 83,
+      "tipo": "HC",
+      "tienda": "Plaza Belén",
+      "municipio": "Querétaro",
+      "lat": 20.64849899432926,
+      "lng": -100.40885691041811,
+      "url": "https://maps.app.goo.gl/dQUFAQrjLTSvhCD27"
+    },
+    {
+      "num": 84,
+      "tipo": "HC",
+      "tienda": "Fuentes de Balvanera",
+      "municipio": "Apaseo el Grande",
+      "lat": 20.535484916114363,
+      "lng": -100.52811900742422,
+      "url": "https://maps.app.goo.gl/DGRgXZxjnRR1ZmccA"
+    },
+    {
+      "num": 85,
+      "tipo": "HC",
+      "tienda": "El Refugio 3",
+      "municipio": "Querétaro",
+      "lat": 20.654704723734202,
+      "lng": -100.34920600863548,
+      "url": "https://maps.app.goo.gl/HRfdyKWkr2qwLMuP6"
+    },
+    {
+      "num": 86,
+      "tipo": "HC",
+      "tienda": "La Gloria",
+      "municipio": "Querétaro",
+      "lat": 20.584080455567086,
+      "lng": -100.4274986643606,
+      "url": "https://maps.app.goo.gl/uA4k61Jyb8t4ZZbT6"
+    },
+    {
+      "num": 87,
+      "tipo": "HC",
+      "tienda": "San Miguel de Allende 3",
+      "municipio": "San Miguel Allende",
+      "lat": 20.91708555056821,
+      "lng": -100.73973293176374,
+      "url": "https://maps.app.goo.gl/roEyD489qcqVxphX8"
+    },
+    {
+      "num": 88,
+      "tipo": "HC",
+      "tienda": "Real de San Isidro San Juan del Río",
+      "municipio": "San Juan del Río",
+      "lat": 20.411966696519112,
+      "lng": -99.9881674661512,
+      "url": "https://maps.app.goo.gl/jH2guewiY7iMckuY9"
+    },
+    {
+      "num": 89,
+      "tipo": "HC",
+      "tienda": "El pueblito",
+      "municipio": "Corregidora",
+      "lat": 20.542072622840323,
+      "lng": -100.43897077779327,
+      "url": "https://maps.app.goo.gl/x9SQrYrhGHkRN2fWA"
+    },
+    {
+      "num": 90,
+      "tipo": "HC",
+      "tienda": "Sombrerete",
+      "municipio": "Querétaro",
+      "lat": 20.625292241754163,
+      "lng": -100.41266104971598,
+      "url": "https://maps.app.goo.gl/8RMavPazYtZ721fD7"
+    },
+    {
+      "num": 91,
+      "tipo": "HC",
+      "tienda": "Plaza Naciones",
+      "municipio": "Querétaro",
+      "lat": 20.642513856110632,
+      "lng": -100.41332730195025,
+      "url": "https://maps.app.goo.gl/oa8sQrRzQYmfaQnf7"
+    },
+    {
+      "num": 92,
+      "tipo": "HC",
+      "tienda": "Lomas Calle 27",
+      "municipio": "Querétaro",
+      "lat": 20.56254394817062,
+      "lng": -100.39008964232843,
+      "url": "https://maps.app.goo.gl/NRGg4LqKMN63ncWk6"
+    },
+    {
+      "num": 93,
+      "tipo": "HC",
+      "tienda": "Niños Héroes",
+      "municipio": "Querétaro",
+      "lat": 20.589296451352368,
+      "lng": -100.40824097546265,
+      "url": "https://maps.app.goo.gl/9XGLoij5TvDmFNVw6"
+    },
+    {
+      "num": 94,
+      "tipo": "HC",
+      "tienda": "La negreta",
+      "municipio": "Corregidora",
+      "lat": 20.526055916057683,
+      "lng": -100.45171393068635,
+      "url": "https://maps.app.goo.gl/2Dc4tTS6sZEBjmSu8"
+    },
+    {
+      "num": 95,
+      "tipo": "HC",
+      "tienda": "Villas del Refugio",
+      "municipio": "El Marqués",
+      "lat": 20.654420080541666,
+      "lng": -100.33645512883578,
+      "url": "https://maps.app.goo.gl/WntGWX7HYKnpfjX98"
+    },
+    {
+      "num": 96,
+      "tipo": "MC",
+      "tienda": "Zibata 2",
+      "municipio": "El Marqués",
+      "lat": 20.6834968841696,
+      "lng": -100.32577885356265,
+      "url": "https://maps.app.goo.gl/ccGefjr5aoCVmj1q6"
+    },
+    {
+      "num": 97,
+      "tipo": "HC",
+      "tienda": "San Miguel de Allende 4",
+      "municipio": "San Miguel Allende",
+      "lat": 20.91855847509035,
+      "lng": -100.74859744999063,
+      "url": "https://maps.app.goo.gl/ZCQ3f88fYjPvdTiS9"
+    },
+    {
+      "num": 98,
+      "tipo": "HC",
+      "tienda": "Loma Bonita",
+      "municipio": "Querétaro",
+      "lat": 20.650482039939714,
+      "lng": -100.45045957276248,
+      "url": "https://maps.app.goo.gl/TeQroH5nUGpgMifDA"
+    },
+    {
+      "num": 99,
+      "tipo": "HC",
+      "tienda": "Menchaca",
+      "municipio": "Querétaro",
+      "lat": 20.64194436239682,
+      "lng": -100.38468795266516,
+      "url": "https://maps.app.goo.gl/t6SrKqvwgeHu5sPX6"
+    },
+    {
+      "num": 100,
+      "tipo": "HC",
+      "tienda": "Burócrata",
+      "municipio": "Querétaro",
+      "lat": 20.592627108298647,
+      "lng": -100.34703172071495,
+      "url": "https://maps.app.goo.gl/9CYfmxoh4osomwai6"
+    },
+    {
+      "num": 101,
+      "tipo": "HC",
+      "tienda": "Milenio #100",
+      "municipio": "Querétaro",
+      "lat": 20.571734960433325,
+      "lng": -100.3830315748284,
+      "url": "https://maps.app.goo.gl/xDKmDD2b8mWFKWNH9"
+    },
+    {
+      "num": 102,
+      "tipo": "HC",
+      "tienda": "Lomas Calle 25",
+      "municipio": "Querétaro",
+      "lat": 20.572068548553997,
+      "lng": -100.3931823520807,
+      "url": "https://maps.app.goo.gl/hRjVZijeNyCjZbbi9"
+    },
+    {
+      "num": 104,
+      "tipo": "HC",
+      "tienda": "Privada Juriquilla",
+      "municipio": "Querétaro",
+      "lat": 20.725671737053247,
+      "lng": -100.44165337250408,
+      "url": "https://maps.app.goo.gl/tvdiPUfNidutnMrz8"
+    },
+    {
+      "num": 105,
+      "tipo": "HC",
+      "tienda": "Colinas del Sol",
+      "municipio": "Corregidora",
+      "lat": 20.5412130069477,
+      "lng": -100.39378998653261,
+      "url": "https://maps.app.goo.gl/ugFwdNh8GyGwCEsd7"
+    },
+    {
+      "num": 106,
+      "tipo": "HC",
+      "tienda": "La popular",
+      "municipio": "Querétaro",
+      "lat": 20.607501285311486,
+      "lng": -100.39701731165667,
+      "url": "https://maps.app.goo.gl/C4CWeTerXud3ifcz7"
+    },
+    {
+      "num": 107,
+      "tipo": "HC",
+      "tienda": "Santa Fe",
+      "municipio": "Querétaro",
+      "lat": 20.586880798597278,
+      "lng": -100.44398056382492,
+      "url": "https://maps.app.goo.gl/o6kofCYJUb3PqcRZ7"
+    },
+    {
+      "num": 108,
+      "tipo": "HC",
+      "tienda": "Cimatario Panteón",
+      "municipio": "Querétaro",
+      "lat": 20.58143999868853,
+      "lng": -100.39254393412868,
+      "url": "https://maps.app.goo.gl/NdvDGZFCaZBktSvC9"
+    },
+    {
+      "num": 109,
+      "tipo": "HC",
+      "tienda": "Corregidora Centro",
+      "municipio": "Querétaro",
+      "lat": 20.599950371102743,
+      "lng": -100.39403399893521,
+      "url": "https://maps.app.goo.gl/2J9ymN1Kq9SfCh3v5"
+    },
+    {
+      "num": 110,
+      "tipo": "HC",
+      "tienda": "San Juan del Río 2 El Roble",
+      "municipio": "San Juan del Río",
+      "lat": 20.403552029106873,
+      "lng": -99.96882573128822,
+      "url": "https://maps.app.goo.gl/Wta1bnsjFFGrbxoj7"
+    },
+    {
+      "num": 111,
+      "tipo": "HC",
+      "tienda": "El Condado",
+      "municipio": "Corregidora",
+      "lat": 20.511117806889967,
+      "lng": -100.40082232891352,
+      "url": "https://maps.app.goo.gl/EppaBVzNuarvKkgy5"
+    },
+    {
+      "num": 112,
+      "tipo": "HC",
+      "tienda": "El Rocío",
+      "municipio": "Querétaro",
+      "lat": 20.621542872603733,
+      "lng": -100.4438813795172,
+      "url": "https://maps.app.goo.gl/2m4C2FxuRMaAK4USA"
+    },
+    {
+      "num": 113,
+      "tipo": "HC",
+      "tienda": "Pueblo de Jurica",
+      "municipio": "Querétaro",
+      "lat": 20.67784593213441,
+      "lng": -100.45103359075412,
+      "url": "https://maps.app.goo.gl/7sCtmi2kGVJPE3gVA"
+    },
+    {
+      "num": 114,
+      "tipo": "MC",
+      "tienda": "Zakia Zizana",
+      "municipio": "El Marqués",
+      "lat": 20.64469634925714,
+      "lng": -100.30745031803464,
+      "url": "https://maps.app.goo.gl/XoSwnpnLvEpC9Pc1A"
+    },
+    {
+      "num": 115,
+      "tipo": "HC",
+      "tienda": "Ejido San Miguel",
+      "municipio": "Querétaro",
+      "lat": 20.660642218753022,
+      "lng": -100.45713750344405,
+      "url": "https://maps.app.goo.gl/Ua1qbJ9SCdzPed297"
+    },
+    {
+      "num": 116,
+      "tipo": "HC",
+      "tienda": "El marqués queretano",
+      "municipio": "Querétaro",
+      "lat": 20.55523092467643,
+      "lng": -100.39129738022648,
+      "url": "https://maps.app.goo.gl/CEAdCrMtAh1ZyL8C7"
+    },
+    {
+      "num": 117,
+      "tipo": "HC",
+      "tienda": "Loarca 2",
+      "municipio": "Querétaro",
+      "lat": 20.659026020802028,
+      "lng": -100.46119304729321,
+      "url": "https://maps.app.goo.gl/xPQsGh6BbqgM1DS79"
+    },
+    {
+      "num": 118,
+      "tipo": "HC",
+      "tienda": "San Jose el alto 1",
+      "municipio": "Querétaro",
+      "lat": 20.653874303627315,
+      "lng": -100.38073603435832,
+      "url": "https://maps.app.goo.gl/AP52YHsMBrcLiyCh8"
+    },
+    {
+      "num": 119,
+      "tipo": "HC",
+      "tienda": "SJR - Las Aguilas",
+      "municipio": "San Juan del Río",
+      "lat": 20.375518199752783,
+      "lng": -99.9534320915086,
+      "url": "https://maps.app.goo.gl/zZ7az4RRtgZrrL8K8"
+    },
+    {
+      "num": 120,
+      "tipo": "HC",
+      "tienda": "Cd del sol - Plaza Rioma",
+      "municipio": "Querétaro",
+      "lat": 20.6402617376903,
+      "lng": -100.48402249594582,
+      "url": "https://maps.app.goo.gl/jaLPxAVZFhqCQZYG7"
+    },
+    {
+      "num": 121,
+      "tipo": "HC",
+      "tienda": "El Salitre",
+      "municipio": "Querétaro",
+      "lat": 20.667930522488323,
+      "lng": -100.42076596487554,
+      "url": "https://maps.app.goo.gl/njQ9eM4SWbVbGpS8A"
+    },
+    {
+      "num": 122,
+      "tipo": "HC",
+      "tienda": "Reforma Deportiva",
+      "municipio": "Querétaro",
+      "lat": 20.558565675129834,
+      "lng": -100.39362797752571,
+      "url": "https://maps.app.goo.gl/vHDrnoywDfrEJMov9"
+    },
+    {
+      "num": 125,
+      "tipo": "HC",
+      "tienda": "Villas de Santiago 2",
+      "municipio": "Querétaro",
+      "lat": 20.65177853995573,
+      "lng": -100.39684799266986,
+      "url": "https://maps.app.goo.gl/vAP9i83RoDvXcfus6"
+    }
+  ],
+  "tiendasPendientes": [
+    {
+      "tipo": "HC",
+      "tienda": "Fuentes de Balvanera 2",
+      "municipio": "Apaseo el Grande",
+      "url": "",
+      "estatus": "En tramite"
+    },
+    {
+      "tipo": "HC",
+      "tienda": "La lira",
+      "municipio": "Pedro Escobedo",
+      "url": "",
+      "estatus": "No abierta"
+    }
+  ]
+}

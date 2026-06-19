@@ -1,0 +1,46 @@
+<%- include('../partials/head', { title }) %>
+<div class="admin-layout">
+  <%- include('../partials/admin-nav') %>
+  <main class="admin-main">
+    <div class="admin-header">
+      <div>
+        <p class="admin-kicker">Administración</p>
+        <h1>Extensiones</h1>
+      </div>
+      <a class="admin-button primary" href="/admin/extensions/new"><i class="fa-solid fa-plus"></i> Nueva extensión</a>
+    </div>
+    <%- include('../partials/flash') %>
+
+    <section class="admin-card">
+      <form method="get" class="admin-search">
+        <input name="q" value="<%= search %>" placeholder="Buscar por extensión, nombre, sucursal, municipio...">
+        <button class="admin-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Buscar</button>
+        <% if (search) { %><a class="admin-button ghost" href="/admin/extensions">Limpiar</a><% } %>
+      </form>
+      <div class="responsive-table">
+        <table>
+          <thead><tr><th>Ext.</th><th>Nombre público</th><th>Tipo</th><th>Ubicación vinculada</th><th>Visible</th><th>Maps</th><th></th></tr></thead>
+          <tbody>
+            <% rows.forEach((item) => { %>
+              <tr>
+                <td><strong><%= item.extension %></strong></td>
+                <td><%= item.display_name || [item.first_name, item.last_name].filter(Boolean).join(' ') || 'Sin nombre' %></td>
+                <td><span class="table-badge"><%= item.type %></span></td>
+                <td><%= item.branch_name ? `${item.branch_name} · ${item.municipality || ''}` : 'Sin ubicación' %></td>
+                <td><%= item.is_visible ? 'Sí' : 'No' %></td>
+                <td><%= item.maps_url ? 'Sí' : 'No' %></td>
+                <td class="table-actions">
+                  <a class="table-action" href="/admin/extensions/<%= item.id %>/edit">Editar</a>
+                  <form method="post" action="/admin/extensions/<%= item.id %>/delete" onsubmit="return confirm('¿Eliminar extensión?');">
+                    <button type="submit" class="danger-link">Eliminar</button>
+                  </form>
+                </td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</div>
+<%- include('../partials/footer') %>

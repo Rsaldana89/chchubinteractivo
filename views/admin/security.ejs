@@ -1,0 +1,25 @@
+<%- include('../partials/head', { title }) %>
+<div class="admin-layout">
+  <%- include('../partials/admin-nav') %>
+  <main class="admin-main">
+    <div class="admin-header">
+      <div>
+        <p class="admin-kicker">Seguridad</p>
+        <h1>Cambiar contraseña</h1>
+      </div>
+    </div>
+    <%- include('../partials/flash') %>
+    <section class="admin-card small-card">
+      <form method="post" action="/admin/security" class="form-grid single">
+        <label>Nueva contraseña
+          <input name="new_password" type="password" minlength="6" required>
+        </label>
+        <label>Confirmar contraseña
+          <input name="confirm_password" type="password" minlength="6" required>
+        </label>
+        <button class="admin-button primary" type="submit"><i class="fa-solid fa-key"></i> Actualizar contraseña</button>
+      </form>
+    </section>
+  </main>
+</div>
+<%- include('../partials/footer') %>

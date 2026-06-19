@@ -1,0 +1,1496 @@
+[
+  {
+    "nombre": "Vacante 1",
+    "apellido": "",
+    "mostrar": "Vacante 1",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "10",
+    "tipo": "SIN TIPO"
+  },
+  {
+    "nombre": "Vacante 2",
+    "apellido": "",
+    "mostrar": "Vacante 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "11",
+    "tipo": "SIN TIPO"
+  },
+  {
+    "nombre": "Vacante 3",
+    "apellido": "",
+    "mostrar": "Vacante 3",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "12",
+    "tipo": "SIN TIPO"
+  },
+  {
+    "nombre": "Vacante 4",
+    "apellido": "",
+    "mostrar": "Vacante 4",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "13",
+    "tipo": "SIN TIPO"
+  },
+  {
+    "nombre": "Vacante 5",
+    "apellido": "",
+    "mostrar": "Vacante 5",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "14",
+    "tipo": "SIN TIPO"
+  },
+  {
+    "nombre": "Vacante 6",
+    "apellido": "",
+    "mostrar": "Vacante 6",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "16",
+    "tipo": "SIN TIPO"
+  },
+  {
+    "nombre": "Vacante 7",
+    "apellido": "",
+    "mostrar": "Vacante 7",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "17",
+    "tipo": "SIN TIPO"
+  },
+  {
+    "nombre": "EDITH",
+    "apellido": "Vargas",
+    "mostrar": "Recepcion",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "100",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "OSCAR",
+    "apellido": "Aguilar",
+    "mostrar": "Contador",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "101",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Georgina",
+    "apellido": "Ramirez",
+    "mostrar": "Reclutamiento",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "102",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "BRENDA",
+    "apellido": "Hernandez",
+    "mostrar": "Finanzas",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "103",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "ELIZABETH",
+    "apellido": "Sanchez",
+    "mostrar": "Activo Fijo",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "104",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "LORENA",
+    "apellido": "Mata",
+    "mostrar": "Compras",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "105",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "PAULINA",
+    "apellido": "Paredes",
+    "mostrar": "CXP",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "106",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "ANDRES",
+    "apellido": "Mendoza",
+    "mostrar": "Capital Humano",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "107",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Rodrigo",
+    "apellido": "Quintanilla",
+    "mostrar": "Rodrigo Quintanilla",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "108",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "FERNANDO",
+    "apellido": "Flores",
+    "mostrar": "Fernando",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "109",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "MARISA",
+    "apellido": "Quintanilla",
+    "mostrar": "Director",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "110",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Erika",
+    "apellido": "Distribucion",
+    "mostrar": "Cedis",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "111",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "VENTAS",
+    "apellido": "Coronel",
+    "mostrar": "Ventas",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "112",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "ESPERANZA",
+    "apellido": "Gonzalez",
+    "mostrar": "Esperanza",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "113",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Jorge",
+    "apellido": "Duque",
+    "mostrar": "Jorge Duque",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "114",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Sin extension",
+    "apellido": "",
+    "mostrar": "",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "115",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "SAN JUAN LETRAN",
+    "apellido": "Coronel",
+    "mostrar": "SAN JUAN LETRAN",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "116",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Sin servicio",
+    "apellido": "",
+    "mostrar": "",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "117",
+    "tipo": "SIN TIPO"
+  },
+  {
+    "nombre": "CRISTINA",
+    "apellido": "Zamudio",
+    "mostrar": "Cristina",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "118",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "ADALBERTO",
+    "apellido": "Beltran",
+    "mostrar": "Adal",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "119",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "ITZEL",
+    "apellido": "Hernandez",
+    "mostrar": "Itzel",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "120",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "VENTAS",
+    "apellido": "Coronel",
+    "mostrar": "Ventas",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "121",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "PANADERIA",
+    "apellido": "Coronel",
+    "mostrar": "Panaderia",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "122",
+    "tipo": "PANADERIA"
+  },
+  {
+    "nombre": "JUANA ELIZABETH",
+    "apellido": "Velazquez",
+    "mostrar": "Juanita",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "124",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "CERRITO COLORADO 3",
+    "apellido": "Coronel",
+    "mostrar": "CERRITO COLORADO 3",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "126",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "IDALIA",
+    "apellido": "Hernandez",
+    "mostrar": "Idalia",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "129",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "SISTEMAS",
+    "apellido": "Cervantes",
+    "mostrar": "Sistemas",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "130",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Mercadotecnia",
+    "apellido": "Escobar",
+    "mostrar": "Ernesto",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "132",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "ELVIA",
+    "apellido": "Chavez",
+    "mostrar": "Elvia",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "133",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "CEDIS",
+    "apellido": "Coronel",
+    "mostrar": "Rosy",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "134",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "PACO",
+    "apellido": "Coronel",
+    "mostrar": "Francisco",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "135",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Compras",
+    "apellido": "Coronel",
+    "mostrar": "Compras",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "136",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "VIGILANTE",
+    "apellido": "Coronel",
+    "mostrar": "Vigilancia",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "137",
+    "tipo": "VIGILANCIA"
+  },
+  {
+    "nombre": "CARMEN",
+    "apellido": "Ramirez",
+    "mostrar": "Carmen",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "138",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Paola",
+    "apellido": "Reclutamiento",
+    "mostrar": "RH",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "139",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Miguel Sinecio",
+    "apellido": "Humanos",
+    "mostrar": "RH",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "141",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Mantenimiento",
+    "apellido": "Aviña",
+    "mostrar": "Reyna",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "142",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "Capacitacion",
+    "apellido": "Humanos",
+    "mostrar": "RH",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "143",
+    "tipo": "OFICINA"
+  },
+  {
+    "nombre": "ABASTOS",
+    "apellido": "Coronel",
+    "mostrar": "ABASTOS",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "201",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "ABASTOS 2",
+    "apellido": "Coronel",
+    "mostrar": "ABASTOS 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "202",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SATELITE 1",
+    "apellido": "Coronel",
+    "mostrar": "SATELITE 1",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "203",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CARRILLO",
+    "apellido": "Coronel",
+    "mostrar": "CARRILLO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "204",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PRESIDENTES",
+    "apellido": "Coronel",
+    "mostrar": "PRESIDENTES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "206",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SAN ROQUE",
+    "apellido": "Coronel",
+    "mostrar": "SAN ROQUE",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "207",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SAUCES",
+    "apellido": "Coronel",
+    "mostrar": "SAUCES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "209",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PLAZAS DEL SOL",
+    "apellido": "Coronel",
+    "mostrar": "PLAZAS",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "210",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "LOMAS DEL MARQUES",
+    "apellido": "Coronel",
+    "mostrar": "LOMAS DEL MARQUES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "212",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PIE CUESTA 1",
+    "apellido": "Coronel",
+    "mostrar": "PIE CUESTA 1",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "213",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CERRITO COLORADO 1",
+    "apellido": "Coronel",
+    "mostrar": "CERRITO COLORADO 1",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "215",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PASEOS DE SAN MIGUEL",
+    "apellido": "Coronel",
+    "mostrar": "SAN MIGUEL",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "216",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "ANDADORES",
+    "apellido": "Coronel",
+    "mostrar": "ANDADORES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "217",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "REF AGRARIA",
+    "apellido": "Coronel",
+    "mostrar": "REF AGRARIA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "218",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "TEJEDA 1",
+    "apellido": "Coronel",
+    "mostrar": "TEJEDA 1",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "219",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SATELITE 2",
+    "apellido": "Coronel",
+    "mostrar": "SATELITE 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "220",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "ENSUEÑO",
+    "apellido": "Coronel",
+    "mostrar": "ENSUEÑO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "221",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CANDILES",
+    "apellido": "Coronel",
+    "mostrar": "CANDILES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "222",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "TINTERO",
+    "apellido": "Coronel",
+    "mostrar": "TINTERO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "223",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CERRITO COL 2",
+    "apellido": "Coronel",
+    "mostrar": "CERRITO COL 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "224",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "TEJEDA 2",
+    "apellido": "Coronel",
+    "mostrar": "TEJEDA 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "225",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Pie de la Cuesta 2",
+    "apellido": "Coronel",
+    "mostrar": "Pie De La Cuesta II",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "226",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SAN PABLO",
+    "apellido": "Coronel",
+    "mostrar": "SAN PABLO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "227",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PRADERA 1",
+    "apellido": "Coronel",
+    "mostrar": "PRADERA 1",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "228",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PRADERA 2",
+    "apellido": "Coronel",
+    "mostrar": "PRADERA 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "229",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "LOARCA",
+    "apellido": "Coronel",
+    "mostrar": "LOARCA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "230",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SAN MIGUEL ALLENDE",
+    "apellido": "Coronel",
+    "mostrar": "SAN MIGUEL ALLENDE",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "231",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "HACIENDA LA CRUZ",
+    "apellido": "Coronel",
+    "mostrar": "HACIENDA LA CRUZ",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "234",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CAMPO MILITAR",
+    "apellido": "Coronel",
+    "mostrar": "CAMPO MILITAR",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "235",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "EL MIRADOR",
+    "apellido": "Coronel",
+    "mostrar": "EL MIRADOR",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "236",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "MIRANDA",
+    "apellido": "Coronel",
+    "mostrar": "MIRANDA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "237",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "INSURGENTES",
+    "apellido": "Coronel",
+    "mostrar": "INSURGENTES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "238",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PEDREGAL",
+    "apellido": "Coronel",
+    "mostrar": "PEDREGAL",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "239",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Viñedos",
+    "apellido": "Coronel",
+    "mostrar": "Viñedos",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "240",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "JURIQUILLA",
+    "apellido": "Coronel",
+    "mostrar": "JURIQUILLA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "241",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "REAL DE LA LOMA",
+    "apellido": "Coronel",
+    "mostrar": "REAL DE LA LOMA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "242",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "AV DE LA LUZ",
+    "apellido": "Coronel",
+    "mostrar": "AV DE LA LUZ",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "244",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "STA MARIA",
+    "apellido": "Coronel",
+    "mostrar": "STA MARIA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "245",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "EX HDA TINTERO",
+    "apellido": "Coronel",
+    "mostrar": "EX HDA TINTERO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "246",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "REFUGIO",
+    "apellido": "Coronel",
+    "mostrar": "REFUGIO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "247",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "VILLAS DE SANTIAGO",
+    "apellido": "Coronel",
+    "mostrar": "VILLAS DE SANTIAGO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "248",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SONTERRA",
+    "apellido": "Coronel",
+    "mostrar": "SONTERRA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "249",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CIUDAD DEL SOL",
+    "apellido": "Coronel",
+    "mostrar": "CIUDAD DEL SOL",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "250",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "MILENIO 3",
+    "apellido": "Coronel",
+    "mostrar": "MILENIO 3",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "251",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PROL PASTEUR",
+    "apellido": "Coronel",
+    "mostrar": "PROL PASTEUR",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "252",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "VALLE DIAMANTE",
+    "apellido": "Coronel",
+    "mostrar": "VALLE DIAMANTE",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "253",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "VISTA REAL",
+    "apellido": "Coronel",
+    "mostrar": "VISTA REAL",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "254",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "VALLE SANTIAGO",
+    "apellido": "Coronel",
+    "mostrar": "VALLE SANTIAGO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "255",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SAUCES 2",
+    "apellido": "Coronel",
+    "mostrar": "SAUCES 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "257",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "LOS HEROES",
+    "apellido": "Coronel",
+    "mostrar": "LOS HEROES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "258",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "RINCONES MARQUES",
+    "apellido": "Coronel",
+    "mostrar": "RINCONES MARQUES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "259",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "VERONA",
+    "apellido": "Coronel",
+    "mostrar": "VERONA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "260",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Palmares",
+    "apellido": "",
+    "mostrar": "Palmares",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "261",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "REAL SOLARE",
+    "apellido": "Coronel",
+    "mostrar": "REAL SOLARE",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "262",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CIUDAD SOL DOS",
+    "apellido": "Coronel",
+    "mostrar": "CIUDAD SOL DOS",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "263",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SANTUARIOS",
+    "apellido": "Coronel",
+    "mostrar": "SANTUARIOS",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "264",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SAN MIGUEL 2",
+    "apellido": "Coronel",
+    "mostrar": "SAN MIGUEL 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "265",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "LOS OLVERA",
+    "apellido": "Coronel",
+    "mostrar": "LOS OLVERA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "266",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "REAL DEL BOSQUE",
+    "apellido": "Coronel",
+    "mostrar": "REAL DEL BOSQUE",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "267",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "LOS ALCANFORES",
+    "apellido": "Coronel",
+    "mostrar": "LOS ALCANFORES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "268",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SAN ISIDRO",
+    "apellido": "Coronel",
+    "mostrar": "SAN ISIDRO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "269",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "ATELIER",
+    "apellido": "Coronel",
+    "mostrar": "ATELIER",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "270",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "TECNOLOGICO",
+    "apellido": "Coronel",
+    "mostrar": "TECNOLOGICO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "271",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CANDILES 2",
+    "apellido": "Coronel",
+    "mostrar": "CANDILES 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "272",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "EL REFUGIO 2",
+    "apellido": "Coronel",
+    "mostrar": "EL REFUGIO 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "273",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "EL JACAL",
+    "apellido": "Coronel",
+    "mostrar": "EL JACAL",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "274",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "JARDINES HDA(La Joya)",
+    "apellido": "Coronel",
+    "mostrar": "JARDINES HDA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "275",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "EL SOL",
+    "apellido": "Coronel",
+    "mostrar": "EL SOL",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "277",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PLAZA CANDILES",
+    "apellido": "Coronel",
+    "mostrar": "PLAZA CANDILES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "278",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "LOS HUERTOS",
+    "apellido": "Coronel",
+    "mostrar": "LOS HUERTOS",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "279",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CIMATARIO",
+    "apellido": "Coronel",
+    "mostrar": "CIMATARIO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "280",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PLATON",
+    "apellido": "Coronel",
+    "mostrar": "PLATON",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "281",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PIRAMIDES",
+    "apellido": "Coronel",
+    "mostrar": "PIRAMIDES",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "282",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "ZIBATA",
+    "apellido": "Coronel",
+    "mostrar": "ZIBATA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "283",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "JURIQUILLA II",
+    "apellido": "Coronel",
+    "mostrar": "JURIQUILLA II",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "284",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "ZAKIA",
+    "apellido": "Coronel",
+    "mostrar": "ZAKIA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "285",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PUERTA NAVARRA",
+    "apellido": "Coronel",
+    "mostrar": "PUERTA NAVARRA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "286",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PEDRO ESCOBEDO",
+    "apellido": "Coronel",
+    "mostrar": "PEDRO ESCOBEDO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "287",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "GEOPLAZAS",
+    "apellido": "Coronel",
+    "mostrar": "GEOLPLAZAS",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "288",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "CANDILES III",
+    "apellido": "Coronel",
+    "mostrar": "CANDILES III",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "289",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PEDRO ESCOBEDO II",
+    "apellido": "Coronel",
+    "mostrar": "PEDRO ESCOBEDO II",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "290",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "PLAZA BELEN",
+    "apellido": "Coronel",
+    "mostrar": "PLAZA BELEN",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "291",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "FUENTES DE BALVANERA",
+    "apellido": "Coronel",
+    "mostrar": "FUENTES DE BALVANERA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "292",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "REFUGIO III",
+    "apellido": "Coronel",
+    "mostrar": "REFIGIO III",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "293",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "LA GLORIA",
+    "apellido": "Coronel",
+    "mostrar": "LA GLORIA",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "294",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SAN MIGUEL DE ALLENDE III",
+    "apellido": "Coronel",
+    "mostrar": "SAN MIGUEL DE ALLENDE III",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "302",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "SAN JUAN DEL RIO",
+    "apellido": "Coronel",
+    "mostrar": "SAN JUAN DEL RIO",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "303",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Pueblito",
+    "apellido": "Coronel",
+    "mostrar": "Pueblito",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "304",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Sombrerete",
+    "apellido": "Coronel",
+    "mostrar": "Sombrerete",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "305",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Plaza naciones",
+    "apellido": "Coronel",
+    "mostrar": "Plaza naciones",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "306",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Lomas Calle 27",
+    "apellido": "Coronel",
+    "mostrar": "Lomas Calle 27",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "307",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Niños Heroes",
+    "apellido": "Coronel",
+    "mostrar": "Niños Heroes",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "308",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "La Negreta",
+    "apellido": "Coronel",
+    "mostrar": "La Negreta",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "309",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Villas del Refugio",
+    "apellido": "Coronel",
+    "mostrar": "Villas del Refugio",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "310",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Loma Bonita",
+    "apellido": "Coronel",
+    "mostrar": "Loma Bonita",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "311",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Menchaca",
+    "apellido": "Coronel",
+    "mostrar": "Menchaca",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "312",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Garibaldi",
+    "apellido": "Coronel",
+    "mostrar": "Garibaldi",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "313",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Xentric",
+    "apellido": "Coronel",
+    "mostrar": "Xentric",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "314",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Burocrata",
+    "apellido": "Coronel",
+    "mostrar": "Burocrata",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "315",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Mileniio 100",
+    "apellido": "Coronel",
+    "mostrar": "Milenio100",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "316",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Tequisquiapan",
+    "apellido": "Coronel",
+    "mostrar": "Tequis",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "317",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "LOMAS CALLE 25",
+    "apellido": "Coronel",
+    "mostrar": "",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "318",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Privada juriquilla",
+    "apellido": "Coronel",
+    "mostrar": "Privada juriquilla",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "319",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Colinas",
+    "apellido": "Coronel",
+    "mostrar": "Colinas",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "320",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "La Popular",
+    "apellido": "Coronel",
+    "mostrar": "La Popular",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "321",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Santa Fe",
+    "apellido": "Coronel",
+    "mostrar": "Tienda nueva 1",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "322",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Colonia Cimatario",
+    "apellido": "Coronel",
+    "mostrar": "Tienda nueva 2",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "323",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Plaza el Roble SJR",
+    "apellido": "Coronel",
+    "mostrar": "Tienda nueva 3",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "324",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Av Corregidora Norte",
+    "apellido": "Coronel",
+    "mostrar": "Tienda nueva 4",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "325",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "El Condado",
+    "apellido": "Coronel",
+    "mostrar": "Tienda nueva 5",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "326",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "El Rocio",
+    "apellido": "Coronel",
+    "mostrar": "Tienda nueva 6",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "327",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Pueblo Jurica",
+    "apellido": "Coronel",
+    "mostrar": "Tienda nueva 7",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "328",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Zakia Zizana",
+    "apellido": "Coronel",
+    "mostrar": "Tienda nueva 8",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "329",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Ejido San Miguel",
+    "apellido": "Coronel",
+    "mostrar": "Tienda Nueva 9",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "330",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Marques Queretano",
+    "apellido": "Coronel",
+    "mostrar": "Tienda Nueva 10",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "331",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Loarca II",
+    "apellido": "Coronel",
+    "mostrar": "Tienda Nueva 11",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "332",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "San Jose el Alto",
+    "apellido": "Coronel",
+    "mostrar": "Tienda Nueva 12",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "333",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Las Aguilas SJR",
+    "apellido": "Coronel",
+    "mostrar": "Tienda Nueva 13",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "334",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Plaza Rioma Cd del Sol",
+    "apellido": "Coronel",
+    "mostrar": "Tienda Nueva 14",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "335",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Salitre",
+    "apellido": "Coronel",
+    "mostrar": "Tienda Nueva 15",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "336",
+    "tipo": "SUCURSAL"
+  },
+  {
+    "nombre": "Deportivo Reforma",
+    "apellido": "Coronel",
+    "mostrar": "Tienda Nueva 16",
+    "ubicacion": "QRO",
+    "modelo": "CP-6821",
+    "extension": "338",
+    "tipo": "SUCURSAL"
+  }
+]

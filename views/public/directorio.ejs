@@ -1,0 +1,105 @@
+<%- include('../partials/head', { title }) %>
+<main class="public-shell directory-wrapper">
+  <div class="public-topbar">
+    <a class="back-link" href="/ubicaciones"><i class="fa-solid fa-map-location-dot"></i> Ver ubicaciones</a>
+    <a class="admin-link" href="/admin"><i class="fa-solid fa-lock"></i> Admin</a>
+  </div>
+
+  <section class="directory-hero">
+    <div class="directory-hero-content">
+      <div class="hero-kicker"><i class="fa-solid fa-phone-volume"></i> Directorio interno</div>
+      <h1>Extensiones CHC</h1>
+      <p>Consulta rápida de extensiones por nombre, sucursal, área o número. Ahora las sucursales pueden mostrar el botón de “Cómo llegar” cuando tienen ubicación vinculada.</p>
+      <div class="hero-actions">
+        <a class="hero-button" href="tel:130"><i class="fa-solid fa-headset"></i> Sistemas 130</a>
+        <button class="hero-button hero-button-light" id="copy-visible-btn" type="button"><i class="fa-solid fa-copy"></i> Copiar resultados visibles</button>
+      </div>
+    </div>
+    <div class="directory-hero-card">
+      <img src="/assets/img/logo-coronel.png" alt="Cremería Hermanos Coronel">
+      <div class="hero-stat-big" id="total-count"><%= counts.total %></div>
+      <div class="hero-stat-label">extensiones activas</div>
+      <div class="hero-mini-stats">
+        <span><strong id="branch-count"><%= counts.branches %></strong> sucursales</span>
+        <span><strong id="office-count"><%= counts.offices %></strong> oficina</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="directory-panel" aria-label="Búsqueda del directorio">
+    <div class="directory-search-box">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input id="directory-search" type="search" placeholder="Buscar por extensión, sucursal, nombre, área o tipo..." autocomplete="off">
+    </div>
+    <div class="directory-filter-row" id="filter-row">
+      <button class="filter-chip active" type="button" data-filter="TODOS">Todos</button>
+      <button class="filter-chip" type="button" data-filter="OFICINA">Oficina</button>
+      <button class="filter-chip" type="button" data-filter="SUCURSAL">Sucursales</button>
+      <button class="filter-chip" type="button" data-filter="PANADERIA">Panadería</button>
+      <button class="filter-chip" type="button" data-filter="VIGILANCIA">Vigilancia</button>
+    </div>
+  </section>
+
+  <section class="directory-summary" aria-label="Resumen de resultados">
+    <div class="summary-card"><span id="visible-count"><%= counts.total %></span><small>visibles</small></div>
+    <div class="summary-card"><span id="first-ext"><%= counts.first || '--' %></span><small>primera ext.</small></div>
+    <div class="summary-card"><span id="last-ext"><%= counts.last || '--' %></span><small>última ext.</small></div>
+  </section>
+
+  <section class="directory-results-header">
+    <h2>Resultados</h2>
+    <p>Da clic en una extensión para copiarla. En celular, el botón de llamada abre el marcador.</p>
+  </section>
+
+  <section id="directory-grid" class="directory-sections" aria-live="polite">
+    <% sections.forEach((section) => { %>
+      <div class="directory-section" data-section="<%= section.key %>">
+        <div class="directory-section-header">
+          <div class="directory-section-title">
+            <span class="directory-section-icon"><i class="fa-solid <%= section.icon %>"></i></span>
+            <div>
+              <h3><%= section.title %></h3>
+              <p><%= section.description %></p>
+            </div>
+          </div>
+          <span class="directory-section-count"><%= section.items.length %> extensiones</span>
+        </div>
+        <div class="directory-grid-cards">
+          <% section.items.forEach((item) => { %>
+            <% const name = item.display_name || [item.first_name, item.last_name].filter(Boolean).join(' ') || 'Sin nombre'; %>
+            <% const sub = item.type === 'SUCURSAL' ? (item.branch_name || 'Sucursal Coronel') : ([item.first_name, item.last_name].filter(Boolean).join(' ') || 'Extensión interna'); %>
+            <% const searchText = [item.extension, name, sub, item.first_name, item.last_name, item.type, item.office_location, item.phone_model, item.municipality].join(' ').toLowerCase(); %>
+            <article class="extension-card" data-type="<%= item.type %>" data-search="<%= searchText %>">
+              <div class="extension-top">
+                <button class="extension-number" type="button" data-copy="<%= item.extension %>" aria-label="Copiar extensión <%= item.extension %>"><%= item.extension %></button>
+                <span class="extension-badge"><%= item.type %></span>
+              </div>
+              <div>
+                <h3 class="extension-title"><%= name %></h3>
+                <p class="extension-subtitle"><%= sub %></p>
+              </div>
+              <div class="extension-meta">
+                <span><i class="fa-solid fa-location-dot"></i> <%= item.municipality || item.office_location || 'Sin ubicación' %></span>
+                <span><i class="fa-solid fa-phone"></i> <%= item.phone_model || 'Sin modelo' %></span>
+              </div>
+              <div class="extension-actions">
+                <a class="extension-action primary" href="tel:<%= item.extension %>"><i class="fa-solid fa-phone-volume"></i> Llamar</a>
+                <button class="extension-action" type="button" data-copy="<%= item.extension %>"><i class="fa-solid fa-copy"></i> Copiar</button>
+                <% if (item.type === 'SUCURSAL' && item.maps_url) { %>
+                  <a class="extension-action maps" href="<%= item.maps_url %>" target="_blank" rel="noopener"><i class="fa-solid fa-route"></i> Cómo llegar</a>
+                <% } %>
+              </div>
+            </article>
+          <% }) %>
+        </div>
+      </div>
+    <% }) %>
+  </section>
+
+  <p id="directory-empty" class="directory-empty"><i class="fa-solid fa-circle-info"></i> No se encontraron extensiones con esa búsqueda.</p>
+</main>
+
+<div class="copy-toast" id="copy-toast"><i class="fa-solid fa-check"></i> Copiado</div>
+<script>window.DIRECTORY_ITEMS = <%- directoryJson %>;</script>
+<script src="/js/directorio.js"></script>
+<%- include('../partials/footer') %>

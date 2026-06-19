@@ -1,0 +1,66 @@
+<%- include('../partials/head', { title }) %>
+<div class="admin-layout">
+  <%- include('../partials/admin-nav') %>
+  <main class="admin-main">
+    <div class="admin-header">
+      <div>
+        <p class="admin-kicker">Extensiones</p>
+        <h1><%= formTitle %></h1>
+      </div>
+      <a class="admin-button ghost" href="/admin/extensions"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+    </div>
+    <%- include('../partials/flash') %>
+
+    <section class="admin-card">
+      <form method="post" action="<%= action %>" class="form-grid">
+        <label>Extensión
+          <input name="extension" value="<%= item.extension || '' %>" required>
+        </label>
+        <label>Tipo
+          <select name="type" required>
+            <% types.forEach((type) => { %>
+              <option value="<%= type %>" <%= item.type === type ? 'selected' : '' %>><%= type %></option>
+            <% }) %>
+          </select>
+        </label>
+        <label>Nombre
+          <input name="first_name" value="<%= item.first_name || '' %>">
+        </label>
+        <label>Apellido
+          <input name="last_name" value="<%= item.last_name || '' %>">
+        </label>
+        <label>Nombre público en tarjeta
+          <input name="display_name" value="<%= item.display_name || '' %>">
+        </label>
+        <label>Ubicación interna
+          <input name="office_location" value="<%= item.office_location || '' %>" placeholder="QRO, almacén, oficina...">
+        </label>
+        <label>Modelo de teléfono
+          <input name="phone_model" value="<%= item.phone_model || '' %>">
+        </label>
+        <label>Ubicación / sucursal para botón Cómo llegar
+          <select name="location_id">
+            <option value="">Sin ubicación vinculada</option>
+            <% locations.forEach((location) => { %>
+              <option value="<%= location.id %>" <%= Number(item.location_id) === Number(location.id) ? 'selected' : '' %>>
+                <%= location.name %> · <%= location.municipality %> <%= location.branch_number ? `#${location.branch_number}` : '' %>
+              </option>
+            <% }) %>
+          </select>
+        </label>
+        <label class="checkbox-row">
+          <input name="is_visible" type="checkbox" value="1" <%= item.is_visible === undefined || item.is_visible ? 'checked' : '' %>>
+          <span>Mostrar en el directorio público</span>
+        </label>
+        <label class="form-wide">Notas
+          <textarea name="notes" rows="4"><%= item.notes || '' %></textarea>
+        </label>
+        <div class="form-actions form-wide">
+          <button class="admin-button primary" type="submit"><i class="fa-solid fa-floppy-disk"></i> Guardar</button>
+          <a class="admin-button ghost" href="/admin/extensions">Cancelar</a>
+        </div>
+      </form>
+    </section>
+  </main>
+</div>
+<%- include('../partials/footer') %>

@@ -1,0 +1,6 @@
+<% if (flash) { %>
+  <div class="flash flash-<%= flash.type %>">
+    <i class="fa-solid <%= flash.type === 'success' ? 'fa-check' : 'fa-triangle-exclamation' %>"></i>
+    <span><%= flash.message %></span>
+  </div>
+<% } %>

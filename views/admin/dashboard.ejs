@@ -1,0 +1,46 @@
+<%- include('../partials/head', { title }) %>
+<div class="admin-layout">
+  <%- include('../partials/admin-nav') %>
+  <main class="admin-main">
+    <div class="admin-header">
+      <div>
+        <p class="admin-kicker">Hub Central CHC</p>
+        <h1>Panel de administración</h1>
+      </div>
+      <a class="admin-button primary" href="/admin/extensions/new"><i class="fa-solid fa-plus"></i> Nueva extensión</a>
+    </div>
+    <%- include('../partials/flash') %>
+
+    <section class="admin-stats">
+      <article><span><%= extensionStats.total || 0 %></span><small>extensiones</small></article>
+      <article><span><%= extensionStats.visible || 0 %></span><small>visibles</small></article>
+      <article><span><%= extensionStats.branches || 0 %></span><small>sucursales</small></article>
+      <article><span><%= locationStats.with_maps || 0 %></span><small>con Maps</small></article>
+    </section>
+
+    <section class="admin-card">
+      <div class="admin-card-head">
+        <h2>Actualizaciones recientes</h2>
+        <a href="/admin/extensions">Ver todas</a>
+      </div>
+      <div class="responsive-table">
+        <table>
+          <thead><tr><th>Ext.</th><th>Nombre</th><th>Tipo</th><th>Ubicación</th><th>Maps</th><th></th></tr></thead>
+          <tbody>
+            <% recentExtensions.forEach((item) => { %>
+              <tr>
+                <td><strong><%= item.extension %></strong></td>
+                <td><%= item.display_name || [item.first_name, item.last_name].filter(Boolean).join(' ') || 'Sin nombre' %></td>
+                <td><span class="table-badge"><%= item.type %></span></td>
+                <td><%= item.branch_name || 'Sin ubicación vinculada' %></td>
+                <td><%= item.maps_url ? 'Sí' : 'No' %></td>
+                <td><a class="table-action" href="/admin/extensions/<%= item.id %>/edit">Editar</a></td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</div>
+<%- include('../partials/footer') %>
