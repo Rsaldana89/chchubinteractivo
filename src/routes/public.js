@@ -12,7 +12,6 @@ const directorySelect = `
     e.last_name,
     e.display_name,
     e.office_location,
-    e.phone_model,
     e.type,
     e.location_id,
     l.name AS branch_name,

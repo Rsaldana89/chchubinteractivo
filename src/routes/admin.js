@@ -100,9 +100,9 @@ router.get('/extensions', async (req, res, next) => {
     if (search) {
       where += ` AND (
         e.extension LIKE ? OR e.first_name LIKE ? OR e.last_name LIKE ? OR e.display_name LIKE ? OR
-        e.office_location LIKE ? OR e.phone_model LIKE ? OR e.type LIKE ? OR l.name LIKE ? OR l.municipality LIKE ?
+        e.office_location LIKE ? OR e.type LIKE ? OR l.name LIKE ? OR l.municipality LIKE ?
       )`;
-      for (let i = 0; i < 9; i += 1) params.push(`%${search}%`);
+      for (let i = 0; i < 8; i += 1) params.push(`%${search}%`);
     }
 
     const rows = await query(`
@@ -138,15 +138,14 @@ router.post('/extensions', async (req, res, next) => {
     const body = req.body;
     await query(`
       INSERT INTO extensions
-      (extension, first_name, last_name, display_name, office_location, phone_model, type, location_id, is_visible, notes)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      (extension, first_name, last_name, display_name, office_location, type, location_id, is_visible, notes)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
     `, [
       body.extension || '',
       body.first_name || '',
       body.last_name || '',
       body.display_name || '',
       body.office_location || '',
-      body.phone_model || '',
       TYPES.includes(body.type) ? body.type : 'SIN TIPO',
       body.location_id || null,
       boolFromBody(body.is_visible) ? 1 : 0,
@@ -190,7 +189,6 @@ router.post('/extensions/:id', async (req, res, next) => {
         last_name = ?,
         display_name = ?,
         office_location = ?,
-        phone_model = ?,
         type = ?,
         location_id = ?,
         is_visible = ?,
@@ -202,7 +200,6 @@ router.post('/extensions/:id', async (req, res, next) => {
       body.last_name || '',
       body.display_name || '',
       body.office_location || '',
-      body.phone_model || '',
       TYPES.includes(body.type) ? body.type : 'SIN TIPO',
       body.location_id || null,
       boolFromBody(body.is_visible) ? 1 : 0,

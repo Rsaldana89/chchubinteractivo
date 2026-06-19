@@ -68,7 +68,7 @@
           <% section.items.forEach((item) => { %>
             <% const name = item.display_name || [item.first_name, item.last_name].filter(Boolean).join(' ') || 'Sin nombre'; %>
             <% const sub = item.type === 'SUCURSAL' ? (item.branch_name || 'Sucursal Coronel') : ([item.first_name, item.last_name].filter(Boolean).join(' ') || 'Extensión interna'); %>
-            <% const searchText = [item.extension, name, sub, item.first_name, item.last_name, item.type, item.office_location, item.phone_model, item.municipality].join(' ').toLowerCase(); %>
+            <% const searchText = [item.extension, name, sub, item.first_name, item.last_name, item.type, item.office_location, item.municipality].join(' ').toLowerCase(); %>
             <article class="extension-card" data-type="<%= item.type %>" data-search="<%= searchText %>">
               <div class="extension-top">
                 <button class="extension-number" type="button" data-copy="<%= item.extension %>" aria-label="Copiar extensión <%= item.extension %>"><%= item.extension %></button>
@@ -80,7 +80,6 @@
               </div>
               <div class="extension-meta">
                 <span><i class="fa-solid fa-location-dot"></i> <%= item.municipality || item.office_location || 'Sin ubicación' %></span>
-                <span><i class="fa-solid fa-phone"></i> <%= item.phone_model || 'Sin modelo' %></span>
               </div>
               <div class="extension-actions">
                 <a class="extension-action primary" href="tel:<%= item.extension %>"><i class="fa-solid fa-phone-volume"></i> Llamar</a>
